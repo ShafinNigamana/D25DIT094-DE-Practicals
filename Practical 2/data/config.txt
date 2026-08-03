@@ -1,0 +1,11 @@
+Database=SQLite
+
+Server=localhost
+
+Port=3306
+
+EnableLogs=True
+
+Invalid Line
+
+Random Text
