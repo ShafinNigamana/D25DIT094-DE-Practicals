@@ -1,0 +1,4 @@
+pipeline,input_rate,events_generated,events_processed,average_latency_ms,minimum_latency_ms,maximum_latency_ms,throughput_events_per_sec
+batch,1000.0,3000,3000,1246.165,10.645,2214.396,413.787
+streaming,1000.0,3000,3000,3.739,2.113,12.861,427.516
+streaming,1000.0,3000,3000,2.401,0.894,11.579,183.273
