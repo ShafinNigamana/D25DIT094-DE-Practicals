@@ -1,0 +1,7 @@
+customer_id,name,email,product,price
+C001,Alice Johnson,alice@example.com,Laptop,1200.00
+C002,Bob Smith,bob@example.com,Mouse,25.50
+C001,Alice Johnson,,Laptop,1200.00
+C003,Charlie Brown,charlie@example.com,Keyboard,45.00
+C004,Donna White,,Monitor,250.00
+C002,Bob Smith,bob@example.com,Mouse,25.50
