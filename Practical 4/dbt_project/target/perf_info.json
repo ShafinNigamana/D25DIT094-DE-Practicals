@@ -1,0 +1,51 @@
+{
+    "path_count": 138,
+    "parsed_path_count": 138,
+    "static_analysis_path_count": 2,
+    "static_analysis_parsed_path_count": 2,
+    "is_partial_parse_enabled": false,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.07523139999989326,
+    "load_macros_elapsed": 1.4261174999999184,
+    "parse_project_elapsed": 1.6580123000001095,
+    "patch_sources_elapsed": 0.048524399999905654,
+    "process_manifest_elapsed": 0.05835479999996096,
+    "load_all_elapsed": 3.40508049999994,
+    "projects": [
+        {
+            "project_name": "retail_sales_warehouse",
+            "elapsed": 1.6530688000000282,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.5772437000000537,
+                    "parsed_path_count": 2
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 1.0736142000000655,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 3
+        },
+        {
+            "project_name": "dbt_duckdb",
+            "elapsed": 0.0026699999998527346,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0021065000000817236,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.000318899999911082,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        }
+    ]
+}

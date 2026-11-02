@@ -1,0 +1,37 @@
+{
+  "Rules": [
+    {
+      "ID": "MoveToWarmTierAfter30Days",
+      "Status": "Enabled",
+      "Filter": {
+        "Prefix": "logs/"
+      },
+      "Transitions": [
+        {
+          "Days": 30,
+          "StorageClass": "WARM"
+        },
+        {
+          "Days": 90,
+          "StorageClass": "COLD"
+        }
+      ],
+      "Expiration": {
+        "Days": 365
+      }
+    },
+    {
+      "ID": "ArchiveHistoricalSnapshotsAfter90Days",
+      "Status": "Enabled",
+      "Filter": {
+        "Prefix": "historical/"
+      },
+      "Transitions": [
+        {
+          "Days": 90,
+          "StorageClass": "COLD"
+        }
+      ]
+    }
+  ]
+}

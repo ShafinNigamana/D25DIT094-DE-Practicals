@@ -1,0 +1,13 @@
+# Project-local dbt profile for Practical 4.
+# dbt uses a local working copy to avoid Google Drive File Stream locks on the
+# original DuckDB database stored with the project.
+
+retail_sales:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "C:\\Users\\shafi\\AppData\\Local\\Temp\\practical4_dbt\\retail_sales.duckdb"
+      schema: main
+      threads: 1
+      timeout_seconds: 300

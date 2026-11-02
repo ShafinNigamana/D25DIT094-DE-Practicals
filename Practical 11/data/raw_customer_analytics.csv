@@ -1,0 +1,1001 @@
+customer_id,full_name,email,ssn,lifetime_value,churn_risk_score,target_segment
+CUST_00001,Michael Brown,michael.brown1@example.com,370-81-6734,2284.58,0.345,Promising Growth
+CUST_00002,John Garcia,john.garcia2@example.com,869-97-7949,103.82,0.308,Standard
+CUST_00003,John Miller,john.miller3@servicehub.io,931-12-4556,3076.97,0.125,Loyal VIP
+CUST_00004,Michael Davis,michael.davis4@techweb.org,134-87-4152,1368.02,0.064,Standard
+CUST_00005,Jennifer Johnson,jennifer.johnson5@mailcorp.net,655-43-5297,4484.65,0.358,Loyal VIP
+CUST_00006,William Davis,william.davis6@example.com,819-91-1878,4160.81,0.133,Loyal VIP
+CUST_00007,James Rodriguez,james.rodriguez7@techweb.org,620-97-3027,1538.09,0.336,Promising Growth
+CUST_00008,Elizabeth Rodriguez,elizabeth.rodriguez8@servicehub.io,234-82-4104,411.44,0.194,Standard
+CUST_00009,John Smith,john.smith9@techweb.org,712-56-4840,3636.47,0.217,Loyal VIP
+CUST_00010,Elizabeth Martinez,elizabeth.martinez10@servicehub.io,560-60-1863,3218.41,0.535,Loyal VIP
+CUST_00011,Patricia Miller,patricia.miller11@techweb.org,342-95-6915,4655.52,0.239,Loyal VIP
+CUST_00012,Patricia Martinez,patricia.martinez12@techweb.org,447-98-8392,1433.45,0.142,Standard
+CUST_00013,Robert Smith,robert.smith13@techweb.org,333-53-1663,4720.26,0.563,Loyal VIP
+CUST_00014,James Martinez,james.martinez14@servicehub.io,367-48-8554,1574.3,0.125,Promising Growth
+CUST_00015,James Smith,james.smith15@techweb.org,737-11-6172,2498.32,0.358,Promising Growth
+CUST_00016,Linda Jones,linda.jones16@servicehub.io,709-79-8125,2725.3,0.162,Promising Growth
+CUST_00017,Patricia Williams,patricia.williams17@mailcorp.net,610-28-3911,571.27,0.195,Standard
+CUST_00018,William Rodriguez,william.rodriguez18@mailcorp.net,250-40-5061,3509.34,0.213,Loyal VIP
+CUST_00019,James Johnson,james.johnson19@example.com,403-21-5548,4512.05,0.051,Loyal VIP
+CUST_00020,John Brown,john.brown20@servicehub.io,153-42-2648,891.98,0.227,Standard
+CUST_00021,John Rodriguez,john.rodriguez21@example.com,995-91-3869,2297.28,0.299,Promising Growth
+CUST_00022,Linda Miller,linda.miller22@techweb.org,500-42-5555,2593.19,0.069,Promising Growth
+CUST_00023,John Garcia,john.garcia23@servicehub.io,382-36-1225,1815.38,0.349,Promising Growth
+CUST_00024,John Brown,john.brown24@techweb.org,291-58-8679,967.84,0.179,Standard
+CUST_00025,James Jones,james.jones25@techweb.org,198-69-6088,469.2,0.17,Standard
+CUST_00026,Mary Rodriguez,mary.rodriguez26@mailcorp.net,834-63-1569,4657.08,0.065,Loyal VIP
+CUST_00027,Elizabeth Smith,elizabeth.smith27@servicehub.io,492-52-8343,2808.82,0.334,Promising Growth
+CUST_00028,Elizabeth Miller,elizabeth.miller28@example.com,135-54-3368,447.61,0.192,Standard
+CUST_00029,Mary Johnson,mary.johnson29@servicehub.io,826-72-1853,1707.95,0.273,Promising Growth
+CUST_00030,Jennifer Jones,jennifer.jones30@example.com,363-62-6691,1157.52,0.147,Standard
+CUST_00031,John Miller,john.miller31@servicehub.io,919-25-5465,2629.87,0.499,Promising Growth
+CUST_00032,Michael Martinez,michael.martinez32@example.com,573-71-3838,2198.74,0.198,Promising Growth
+CUST_00033,Jennifer Rodriguez,jennifer.rodriguez33@servicehub.io,336-10-4343,2631.81,0.076,Promising Growth
+CUST_00034,Elizabeth Williams,elizabeth.williams34@example.com,185-66-6188,561.37,0.311,Standard
+CUST_00035,Robert Miller,robert.miller35@mailcorp.net,621-78-3849,1378.38,0.675,At-Risk Low-Value
+CUST_00036,Michael Johnson,michael.johnson36@example.com,995-41-1851,2919.82,0.654,High-Value Churn Risk
+CUST_00037,Robert Williams,robert.williams37@example.com,516-49-4913,1112.75,0.188,Standard
+CUST_00038,Mary Williams,mary.williams38@techweb.org,948-17-7748,4239.89,0.2,Loyal VIP
+CUST_00039,Linda Brown,linda.brown39@example.com,376-45-6988,3778.01,0.094,Loyal VIP
+CUST_00040,Robert Smith,robert.smith40@techweb.org,624-32-3914,605.31,0.194,Standard
+CUST_00041,John Smith,john.smith41@servicehub.io,495-70-8400,4251.0,0.336,Loyal VIP
+CUST_00042,Elizabeth Jones,elizabeth.jones42@example.com,198-21-8192,2813.14,0.195,Promising Growth
+CUST_00043,Elizabeth Jones,elizabeth.jones43@techweb.org,314-84-7801,4846.39,0.347,Loyal VIP
+CUST_00044,Linda Martinez,linda.martinez44@example.com,894-75-2540,2615.3,0.516,Promising Growth
+CUST_00045,James Miller,james.miller45@example.com,400-13-4141,3570.09,0.026,Loyal VIP
+CUST_00046,John Miller,john.miller46@mailcorp.net,550-54-5748,2085.49,0.448,Promising Growth
+CUST_00047,Michael Smith,michael.smith47@techweb.org,447-71-1504,1936.87,0.414,Promising Growth
+CUST_00048,Robert Garcia,robert.garcia48@example.com,302-45-7190,3184.05,0.105,Loyal VIP
+CUST_00049,Michael Rodriguez,michael.rodriguez49@techweb.org,111-83-6063,2033.16,0.286,Promising Growth
+CUST_00050,Linda Martinez,linda.martinez0@servicehub.io,277-37-5964,4874.53,0.038,Loyal VIP
+CUST_00051,John Garcia,john.garcia1@mailcorp.net,982-78-2838,4603.97,0.094,Loyal VIP
+CUST_00052,Mary Smith,mary.smith2@techweb.org,952-35-5158,2025.65,0.205,Promising Growth
+CUST_00053,James Jones,james.jones3@servicehub.io,922-15-3000,2718.3,0.293,Promising Growth
+CUST_00054,Elizabeth Martinez,elizabeth.martinez4@techweb.org,244-94-8245,1104.72,0.214,Standard
+CUST_00055,Linda Johnson,linda.johnson5@servicehub.io,194-81-1249,2649.51,0.17,Promising Growth
+CUST_00056,Robert Rodriguez,robert.rodriguez6@example.com,723-56-2252,3139.52,0.101,Loyal VIP
+CUST_00057,Jennifer Johnson,jennifer.johnson7@mailcorp.net,949-39-8002,545.91,0.187,Standard
+CUST_00058,Michael Martinez,michael.martinez8@techweb.org,180-14-5892,820.66,0.2,Standard
+CUST_00059,Mary Garcia,mary.garcia9@example.com,549-86-7269,3203.66,0.251,Loyal VIP
+CUST_00060,Jennifer Davis,jennifer.davis10@servicehub.io,459-13-9472,4494.26,0.598,Loyal VIP
+CUST_00061,John Jones,john.jones11@example.com,565-51-4900,255.84,0.292,Standard
+CUST_00062,James Martinez,james.martinez12@example.com,172-35-7190,3176.71,0.467,Loyal VIP
+CUST_00063,Linda Garcia,linda.garcia13@mailcorp.net,573-37-9150,2703.2,0.216,Promising Growth
+CUST_00064,John Miller,john.miller14@mailcorp.net,462-27-8673,1835.32,0.156,Promising Growth
+CUST_00065,Michael Rodriguez,michael.rodriguez15@example.com,330-95-8641,2723.14,0.265,Promising Growth
+CUST_00066,William Johnson,william.johnson16@techweb.org,327-95-8943,2974.02,0.025,Promising Growth
+CUST_00067,Mary Davis,mary.davis17@techweb.org,976-79-4812,4675.09,0.526,Loyal VIP
+CUST_00068,Linda Miller,linda.miller18@example.com,858-12-9434,189.39,0.216,Standard
+CUST_00069,Jennifer Smith,jennifer.smith19@mailcorp.net,603-60-6560,3620.44,0.021,Loyal VIP
+CUST_00070,Elizabeth Garcia,elizabeth.garcia20@servicehub.io,886-93-1224,3707.61,0.505,Loyal VIP
+CUST_00071,Patricia Williams,patricia.williams21@example.com,789-19-1260,410.54,0.134,Standard
+CUST_00072,Linda Garcia,linda.garcia22@techweb.org,518-58-2604,4170.04,0.28,Loyal VIP
+CUST_00073,Linda Garcia,linda.garcia23@servicehub.io,931-81-7413,4017.73,0.168,Loyal VIP
+CUST_00074,Patricia Rodriguez,patricia.rodriguez24@example.com,141-98-7943,2367.13,0.527,Promising Growth
+CUST_00075,James Miller,james.miller25@mailcorp.net,920-60-2970,2214.49,0.557,Promising Growth
+CUST_00076,James Brown,james.brown26@mailcorp.net,330-36-1419,4988.69,0.293,Loyal VIP
+CUST_00077,Patricia Garcia,patricia.garcia27@mailcorp.net,621-14-2865,1776.2,0.511,Promising Growth
+CUST_00078,Mary Williams,mary.williams28@techweb.org,391-35-3116,4151.31,0.22,Loyal VIP
+CUST_00079,Elizabeth Martinez,elizabeth.martinez29@example.com,715-71-1984,1354.48,0.228,Standard
+CUST_00080,Robert Davis,robert.davis30@example.com,939-40-7024,2178.24,0.282,Promising Growth
+CUST_00081,Robert Jones,robert.jones31@mailcorp.net,721-45-4030,4612.13,0.189,Loyal VIP
+CUST_00082,William Jones,william.jones32@example.com,301-61-7456,122.7,0.258,Standard
+CUST_00083,Mary Miller,mary.miller33@mailcorp.net,574-43-7490,2315.87,0.39,Promising Growth
+CUST_00084,Michael Brown,michael.brown34@mailcorp.net,600-97-7320,3924.43,0.186,Loyal VIP
+CUST_00085,James Brown,james.brown35@example.com,788-29-4701,4317.1,0.085,Loyal VIP
+CUST_00086,Michael Williams,michael.williams36@techweb.org,822-71-3079,2394.34,0.046,Promising Growth
+CUST_00087,James Williams,james.williams37@techweb.org,293-47-5926,604.61,0.198,Standard
+CUST_00088,John Johnson,john.johnson38@servicehub.io,186-64-8643,4214.97,0.158,Loyal VIP
+CUST_00089,Michael Davis,michael.davis39@mailcorp.net,860-76-8218,3298.46,0.23,Loyal VIP
+CUST_00090,Linda Brown,linda.brown40@servicehub.io,264-63-7612,2091.32,0.195,Promising Growth
+CUST_00091,Robert Williams,robert.williams41@servicehub.io,480-28-2308,2164.98,0.144,Promising Growth
+CUST_00092,Patricia Jones,patricia.jones42@example.com,355-18-8083,1175.6,0.398,Standard
+CUST_00093,James Johnson,james.johnson43@techweb.org,308-23-3599,3524.34,0.109,Loyal VIP
+CUST_00094,Elizabeth Martinez,elizabeth.martinez44@example.com,208-96-9996,190.11,0.052,Standard
+CUST_00095,Elizabeth Miller,elizabeth.miller45@example.com,973-95-3074,4510.09,0.221,Loyal VIP
+CUST_00096,Michael Martinez,michael.martinez46@example.com,500-35-4028,1977.38,0.172,Promising Growth
+CUST_00097,John Jones,john.jones47@servicehub.io,470-35-5124,2007.55,0.241,Promising Growth
+CUST_00098,John Garcia,john.garcia48@mailcorp.net,154-33-5853,761.51,0.058,Standard
+CUST_00099,Patricia Smith,patricia.smith49@mailcorp.net,606-82-1153,2423.76,0.178,Promising Growth
+CUST_00100,Linda Martinez,linda.martinez0@example.com,138-44-2252,111.46,0.278,Standard
+CUST_00101,James Martinez,james.martinez1@example.com,922-56-5107,2755.31,0.265,Promising Growth
+CUST_00102,Jennifer Garcia,jennifer.garcia2@servicehub.io,636-91-6387,1183.93,0.374,Standard
+CUST_00103,William Williams,william.williams3@servicehub.io,939-68-2500,2423.65,0.265,Promising Growth
+CUST_00104,James Davis,james.davis4@techweb.org,719-69-8980,477.07,0.075,Standard
+CUST_00105,Linda Smith,linda.smith5@servicehub.io,448-95-1920,3715.49,0.348,Loyal VIP
+CUST_00106,Mary Williams,mary.williams6@techweb.org,138-55-3032,2069.46,0.191,Promising Growth
+CUST_00107,Elizabeth Rodriguez,elizabeth.rodriguez7@techweb.org,458-93-4760,641.32,0.428,Standard
+CUST_00108,William Smith,william.smith8@example.com,684-24-9056,3430.27,0.13,Loyal VIP
+CUST_00109,Linda Johnson,linda.johnson9@example.com,810-61-6690,2067.74,0.117,Promising Growth
+CUST_00110,Mary Rodriguez,mary.rodriguez10@mailcorp.net,852-12-4845,4023.77,0.184,Loyal VIP
+CUST_00111,James Martinez,james.martinez11@techweb.org,789-91-8312,854.09,0.104,Standard
+CUST_00112,William Brown,william.brown12@mailcorp.net,456-20-2640,2016.73,0.208,Promising Growth
+CUST_00113,Elizabeth Rodriguez,elizabeth.rodriguez13@techweb.org,139-34-1954,1478.82,0.255,Standard
+CUST_00114,Robert Smith,robert.smith14@mailcorp.net,139-54-1317,3002.8,0.107,Loyal VIP
+CUST_00115,James Garcia,james.garcia15@servicehub.io,246-89-4239,1301.9,0.137,Standard
+CUST_00116,Robert Martinez,robert.martinez16@servicehub.io,290-36-3469,1027.19,0.135,Standard
+CUST_00117,Elizabeth Martinez,elizabeth.martinez17@servicehub.io,462-62-4741,4552.64,0.218,Loyal VIP
+CUST_00118,Mary Smith,mary.smith18@example.com,116-69-5543,2745.93,0.29,Promising Growth
+CUST_00119,Mary Jones,mary.jones19@example.com,377-77-8059,3470.64,0.14,Loyal VIP
+CUST_00120,Elizabeth Garcia,elizabeth.garcia20@example.com,121-91-3353,4951.73,0.059,Loyal VIP
+CUST_00121,Michael Smith,michael.smith21@mailcorp.net,978-88-4356,4727.09,0.154,Loyal VIP
+CUST_00122,Patricia Johnson,patricia.johnson22@techweb.org,183-31-6658,4353.47,0.683,High-Value Churn Risk
+CUST_00123,Jennifer Johnson,jennifer.johnson23@example.com,262-73-4056,3293.17,0.188,Loyal VIP
+CUST_00124,William Smith,william.smith24@example.com,408-17-9782,2323.1,0.378,Promising Growth
+CUST_00125,Patricia Rodriguez,patricia.rodriguez25@mailcorp.net,305-80-2875,2208.5,0.295,Promising Growth
+CUST_00126,Robert Johnson,robert.johnson26@servicehub.io,683-20-4788,832.95,0.361,Standard
+CUST_00127,Jennifer Rodriguez,jennifer.rodriguez27@example.com,201-50-1778,2454.48,0.505,Promising Growth
+CUST_00128,Patricia Smith,patricia.smith28@mailcorp.net,341-11-7368,530.55,0.169,Standard
+CUST_00129,Elizabeth Johnson,elizabeth.johnson29@techweb.org,205-53-2895,3218.51,0.217,Loyal VIP
+CUST_00130,Linda Davis,linda.davis30@mailcorp.net,959-71-9442,2473.55,0.08,Promising Growth
+CUST_00131,John Rodriguez,john.rodriguez31@servicehub.io,973-23-8179,1310.81,0.479,Standard
+CUST_00132,Patricia Davis,patricia.davis32@example.com,730-62-5790,313.94,0.28,Standard
+CUST_00133,Elizabeth Williams,elizabeth.williams33@techweb.org,544-63-7078,1097.53,0.024,Standard
+CUST_00134,Patricia Davis,patricia.davis34@mailcorp.net,788-60-5703,2981.49,0.13,Promising Growth
+CUST_00135,Patricia Garcia,patricia.garcia35@techweb.org,854-67-5732,1132.24,0.042,Standard
+CUST_00136,Linda Brown,linda.brown36@servicehub.io,577-96-1525,4859.84,0.385,Loyal VIP
+CUST_00137,Linda Miller,linda.miller37@example.com,183-11-4814,901.27,0.606,Standard
+CUST_00138,Linda Brown,linda.brown38@example.com,402-40-4466,4430.18,0.511,Loyal VIP
+CUST_00139,William Smith,william.smith39@example.com,375-17-8115,3563.21,0.029,Loyal VIP
+CUST_00140,James Davis,james.davis40@servicehub.io,923-37-2390,4354.53,0.487,Loyal VIP
+CUST_00141,Robert Brown,robert.brown41@mailcorp.net,896-10-7262,1201.04,0.1,Standard
+CUST_00142,Mary Davis,mary.davis42@techweb.org,910-98-8473,4868.18,0.365,Loyal VIP
+CUST_00143,Jennifer Brown,jennifer.brown43@techweb.org,483-54-2969,1089.08,0.081,Standard
+CUST_00144,Jennifer Johnson,jennifer.johnson44@example.com,410-52-7089,185.83,0.523,Standard
+CUST_00145,Linda Rodriguez,linda.rodriguez45@mailcorp.net,900-10-4124,3368.16,0.4,Loyal VIP
+CUST_00146,William Smith,william.smith46@example.com,188-57-7924,3933.69,0.162,Loyal VIP
+CUST_00147,Patricia Garcia,patricia.garcia47@techweb.org,553-91-2000,1654.26,0.501,Promising Growth
+CUST_00148,Robert Smith,robert.smith48@servicehub.io,810-24-3875,2787.65,0.352,Promising Growth
+CUST_00149,John Davis,john.davis49@mailcorp.net,941-75-3989,2552.18,0.725,High-Value Churn Risk
+CUST_00150,Michael Garcia,michael.garcia0@mailcorp.net,597-52-9212,1059.31,0.226,Standard
+CUST_00151,John Brown,john.brown1@example.com,240-95-5882,596.96,0.405,Standard
+CUST_00152,John Davis,john.davis2@servicehub.io,205-45-7787,4133.55,0.161,Loyal VIP
+CUST_00153,James Martinez,james.martinez3@example.com,397-65-9227,2180.18,0.393,Promising Growth
+CUST_00154,Michael Garcia,michael.garcia4@mailcorp.net,376-95-4097,1139.02,0.323,Standard
+CUST_00155,James Martinez,james.martinez5@techweb.org,392-77-7807,4130.81,0.28,Loyal VIP
+CUST_00156,James Miller,james.miller6@mailcorp.net,680-56-1482,4359.37,0.464,Loyal VIP
+CUST_00157,John Miller,john.miller7@servicehub.io,622-19-2100,3012.93,0.372,Loyal VIP
+CUST_00158,Michael Rodriguez,michael.rodriguez8@example.com,558-33-3349,610.14,0.71,At-Risk Low-Value
+CUST_00159,Linda Jones,linda.jones9@example.com,775-12-1072,1684.52,0.416,Promising Growth
+CUST_00160,Mary Jones,mary.jones10@servicehub.io,638-41-8397,3004.78,0.255,Loyal VIP
+CUST_00161,Mary Miller,mary.miller11@servicehub.io,869-90-4874,3680.19,0.07,Loyal VIP
+CUST_00162,William Miller,william.miller12@servicehub.io,717-71-7813,2306.82,0.103,Promising Growth
+CUST_00163,Michael Williams,michael.williams13@servicehub.io,729-14-7099,4642.3,0.1,Loyal VIP
+CUST_00164,Mary Davis,mary.davis14@techweb.org,899-42-2012,4147.73,0.584,Loyal VIP
+CUST_00165,Robert Johnson,robert.johnson15@techweb.org,860-82-3496,1597.07,0.065,Promising Growth
+CUST_00166,John Garcia,john.garcia16@techweb.org,242-95-6435,4271.98,0.135,Loyal VIP
+CUST_00167,Jennifer Williams,jennifer.williams17@servicehub.io,106-61-8693,496.5,0.383,Standard
+CUST_00168,Patricia Johnson,patricia.johnson18@servicehub.io,365-34-9984,2448.84,0.213,Promising Growth
+CUST_00169,Patricia Williams,patricia.williams19@techweb.org,124-22-3529,434.04,0.263,Standard
+CUST_00170,Patricia Johnson,patricia.johnson20@example.com,927-72-3719,1158.59,0.377,Standard
+CUST_00171,John Johnson,john.johnson21@mailcorp.net,444-11-7525,4974.84,0.389,Loyal VIP
+CUST_00172,John Miller,john.miller22@servicehub.io,499-13-2638,1221.58,0.254,Standard
+CUST_00173,Jennifer Miller,jennifer.miller23@mailcorp.net,162-72-6693,3304.97,0.406,Loyal VIP
+CUST_00174,Jennifer Jones,jennifer.jones24@mailcorp.net,282-11-8898,2151.05,0.46,Promising Growth
+CUST_00175,Robert Smith,robert.smith25@example.com,312-94-3385,416.62,0.563,Standard
+CUST_00176,Robert Brown,robert.brown26@servicehub.io,282-35-6827,4336.84,0.104,Loyal VIP
+CUST_00177,Jennifer Martinez,jennifer.martinez27@example.com,653-22-3672,4781.14,0.244,Loyal VIP
+CUST_00178,James Martinez,james.martinez28@mailcorp.net,925-69-3279,2361.24,0.085,Promising Growth
+CUST_00179,James Miller,james.miller29@servicehub.io,272-92-8083,2609.89,0.347,Promising Growth
+CUST_00180,Linda Smith,linda.smith30@example.com,247-30-1365,4958.78,0.415,Loyal VIP
+CUST_00181,Jennifer Davis,jennifer.davis31@servicehub.io,237-47-7511,4842.51,0.041,Loyal VIP
+CUST_00182,Mary Williams,mary.williams32@example.com,903-77-9569,2443.45,0.557,Promising Growth
+CUST_00183,Mary Garcia,mary.garcia33@example.com,792-41-4983,4077.67,0.239,Loyal VIP
+CUST_00184,Michael Rodriguez,michael.rodriguez34@example.com,587-68-5941,2253.08,0.16,Promising Growth
+CUST_00185,Linda Jones,linda.jones35@techweb.org,221-41-6341,4320.71,0.236,Loyal VIP
+CUST_00186,Robert Davis,robert.davis36@mailcorp.net,459-16-9789,3790.62,0.178,Loyal VIP
+CUST_00187,Robert Brown,robert.brown37@techweb.org,661-88-5082,838.31,0.194,Standard
+CUST_00188,John Garcia,john.garcia38@techweb.org,122-38-6926,2928.15,0.304,Promising Growth
+CUST_00189,Linda Smith,linda.smith39@servicehub.io,360-12-1448,1461.72,0.203,Standard
+CUST_00190,Robert Miller,robert.miller40@techweb.org,165-50-3159,3940.58,0.575,Loyal VIP
+CUST_00191,Michael Garcia,michael.garcia41@servicehub.io,310-67-3179,1988.34,0.153,Promising Growth
+CUST_00192,Jennifer Jones,jennifer.jones42@mailcorp.net,970-30-6891,988.46,0.274,Standard
+CUST_00193,John Davis,john.davis43@example.com,435-67-7643,2847.23,0.158,Promising Growth
+CUST_00194,John Smith,john.smith44@techweb.org,977-92-1663,1737.77,0.267,Promising Growth
+CUST_00195,Patricia Miller,patricia.miller45@example.com,282-27-1830,1181.0,0.348,Standard
+CUST_00196,Patricia Brown,patricia.brown46@servicehub.io,146-24-2733,4956.52,0.321,Loyal VIP
+CUST_00197,John Smith,john.smith47@mailcorp.net,353-79-4920,4655.12,0.113,Loyal VIP
+CUST_00198,Patricia Smith,patricia.smith48@example.com,173-73-7404,3559.49,0.091,Loyal VIP
+CUST_00199,William Garcia,william.garcia49@mailcorp.net,927-69-8736,3781.74,0.295,Loyal VIP
+CUST_00200,John Miller,john.miller0@servicehub.io,369-19-3014,2303.73,0.235,Promising Growth
+CUST_00201,Patricia Johnson,patricia.johnson1@mailcorp.net,974-66-1689,2114.37,0.144,Promising Growth
+CUST_00202,Michael Jones,michael.jones2@mailcorp.net,765-23-6432,2522.96,0.238,Promising Growth
+CUST_00203,James Williams,james.williams3@techweb.org,956-94-7588,659.07,0.219,Standard
+CUST_00204,Michael Smith,michael.smith4@example.com,763-70-1572,4314.68,0.14,Loyal VIP
+CUST_00205,Jennifer Garcia,jennifer.garcia5@mailcorp.net,676-83-2537,3354.52,0.119,Loyal VIP
+CUST_00206,Linda Garcia,linda.garcia6@servicehub.io,670-19-1610,354.59,0.284,Standard
+CUST_00207,Patricia Brown,patricia.brown7@mailcorp.net,754-94-2749,891.94,0.146,Standard
+CUST_00208,James Johnson,james.johnson8@example.com,859-12-8264,2014.57,0.456,Promising Growth
+CUST_00209,John Jones,john.jones9@techweb.org,878-21-1007,1506.98,0.015,Promising Growth
+CUST_00210,Linda Johnson,linda.johnson10@mailcorp.net,927-93-4525,3986.98,0.467,Loyal VIP
+CUST_00211,Robert Jones,robert.jones11@servicehub.io,465-28-3591,676.46,0.305,Standard
+CUST_00212,Mary Brown,mary.brown12@servicehub.io,201-68-9438,736.15,0.306,Standard
+CUST_00213,John Rodriguez,john.rodriguez13@servicehub.io,585-59-1645,3580.19,0.235,Loyal VIP
+CUST_00214,Robert Davis,robert.davis14@mailcorp.net,230-85-5079,3588.87,0.267,Loyal VIP
+CUST_00215,William Williams,william.williams15@techweb.org,437-67-2098,3290.62,0.147,Loyal VIP
+CUST_00216,John Smith,john.smith16@servicehub.io,992-25-7049,1693.01,0.233,Promising Growth
+CUST_00217,Michael Williams,michael.williams17@servicehub.io,541-34-6925,1865.85,0.4,Promising Growth
+CUST_00218,Patricia Smith,patricia.smith18@techweb.org,492-86-8374,1375.41,0.407,Standard
+CUST_00219,Linda Garcia,linda.garcia19@mailcorp.net,711-81-6661,4031.54,0.548,Loyal VIP
+CUST_00220,Jennifer Miller,jennifer.miller20@mailcorp.net,182-60-3946,3794.41,0.309,Loyal VIP
+CUST_00221,John Brown,john.brown21@mailcorp.net,219-47-2460,2749.42,0.678,High-Value Churn Risk
+CUST_00222,John Rodriguez,john.rodriguez22@techweb.org,433-50-6827,416.01,0.25,Standard
+CUST_00223,Linda Miller,linda.miller23@servicehub.io,576-71-3479,269.88,0.473,Standard
+CUST_00224,John Smith,john.smith24@example.com,300-70-5577,4407.0,0.65,High-Value Churn Risk
+CUST_00225,William Williams,william.williams25@mailcorp.net,919-31-8986,2281.71,0.244,Promising Growth
+CUST_00226,Patricia Garcia,patricia.garcia26@servicehub.io,678-95-1193,1430.69,0.339,Standard
+CUST_00227,Jennifer Martinez,jennifer.martinez27@techweb.org,747-92-4451,2401.24,0.108,Promising Growth
+CUST_00228,Patricia Davis,patricia.davis28@example.com,752-70-6093,4285.27,0.17,Loyal VIP
+CUST_00229,Michael Jones,michael.jones29@example.com,803-71-6482,317.5,0.37,Standard
+CUST_00230,Robert Williams,robert.williams30@techweb.org,282-50-6670,2518.38,0.479,Promising Growth
+CUST_00231,Linda Davis,linda.davis31@example.com,208-21-7588,1615.93,0.07,Promising Growth
+CUST_00232,Mary Brown,mary.brown32@mailcorp.net,772-45-1593,552.2,0.125,Standard
+CUST_00233,John Rodriguez,john.rodriguez33@techweb.org,869-72-4868,3425.48,0.29,Loyal VIP
+CUST_00234,Jennifer Rodriguez,jennifer.rodriguez34@example.com,650-37-1770,3647.47,0.394,Loyal VIP
+CUST_00235,John Smith,john.smith35@techweb.org,912-88-6476,702.72,0.185,Standard
+CUST_00236,Robert Garcia,robert.garcia36@techweb.org,757-45-3658,480.31,0.129,Standard
+CUST_00237,John Williams,john.williams37@servicehub.io,271-88-6160,2211.83,0.666,At-Risk Low-Value
+CUST_00238,Patricia Smith,patricia.smith38@servicehub.io,778-43-7583,911.58,0.459,Standard
+CUST_00239,Mary Williams,mary.williams39@techweb.org,578-20-2829,4250.98,0.302,Loyal VIP
+CUST_00240,Patricia Smith,patricia.smith40@example.com,533-78-8069,234.93,0.451,Standard
+CUST_00241,Jennifer Martinez,jennifer.martinez41@techweb.org,917-15-7268,2346.76,0.335,Promising Growth
+CUST_00242,Patricia Johnson,patricia.johnson42@servicehub.io,300-38-5154,4809.56,0.494,Loyal VIP
+CUST_00243,Robert Rodriguez,robert.rodriguez43@example.com,773-95-5916,4184.88,0.179,Loyal VIP
+CUST_00244,James Jones,james.jones44@mailcorp.net,482-30-9491,4170.37,0.127,Loyal VIP
+CUST_00245,Mary Brown,mary.brown45@techweb.org,608-26-4170,4413.54,0.051,Loyal VIP
+CUST_00246,Robert Davis,robert.davis46@servicehub.io,616-26-3660,2760.82,0.405,Promising Growth
+CUST_00247,Robert Garcia,robert.garcia47@techweb.org,586-14-2207,1451.26,0.482,Standard
+CUST_00248,Jennifer Miller,jennifer.miller48@mailcorp.net,327-84-9125,3832.81,0.537,Loyal VIP
+CUST_00249,John Jones,john.jones49@mailcorp.net,830-91-5699,4154.84,0.339,Loyal VIP
+CUST_00250,Patricia Smith,patricia.smith0@example.com,980-81-8742,4428.98,0.356,Loyal VIP
+CUST_00251,John Garcia,john.garcia1@mailcorp.net,909-73-1276,1857.71,0.289,Promising Growth
+CUST_00252,John Williams,john.williams2@mailcorp.net,363-35-5208,540.08,0.174,Standard
+CUST_00253,Robert Davis,robert.davis3@servicehub.io,287-82-9448,4245.02,0.213,Loyal VIP
+CUST_00254,Patricia Garcia,patricia.garcia4@techweb.org,454-81-8938,3197.24,0.189,Loyal VIP
+CUST_00255,Jennifer Johnson,jennifer.johnson5@mailcorp.net,573-22-3555,4330.66,0.404,Loyal VIP
+CUST_00256,Jennifer Miller,jennifer.miller6@example.com,906-74-6789,4897.01,0.12,Loyal VIP
+CUST_00257,James Miller,james.miller7@techweb.org,643-71-8241,2970.74,0.086,Promising Growth
+CUST_00258,Patricia Jones,patricia.jones8@servicehub.io,946-31-7846,687.77,0.25,Standard
+CUST_00259,Mary Johnson,mary.johnson9@servicehub.io,453-84-8016,3768.36,0.496,Loyal VIP
+CUST_00260,Jennifer Garcia,jennifer.garcia10@example.com,442-97-7056,1767.82,0.277,Promising Growth
+CUST_00261,Mary Brown,mary.brown11@servicehub.io,949-24-3224,1948.84,0.366,Promising Growth
+CUST_00262,James Rodriguez,james.rodriguez12@servicehub.io,274-32-4796,3593.93,0.306,Loyal VIP
+CUST_00263,Robert Brown,robert.brown13@techweb.org,822-21-2316,336.11,0.293,Standard
+CUST_00264,Mary Williams,mary.williams14@servicehub.io,972-80-5072,1011.51,0.22,Standard
+CUST_00265,Jennifer Garcia,jennifer.garcia15@servicehub.io,199-96-2772,1546.98,0.11,Promising Growth
+CUST_00266,Robert Davis,robert.davis16@mailcorp.net,537-74-9547,518.17,0.291,Standard
+CUST_00267,Robert Jones,robert.jones17@mailcorp.net,657-22-4748,4564.24,0.324,Loyal VIP
+CUST_00268,John Garcia,john.garcia18@example.com,879-63-5979,148.63,0.274,Standard
+CUST_00269,Patricia Miller,patricia.miller19@servicehub.io,883-56-3745,4299.93,0.367,Loyal VIP
+CUST_00270,Robert Garcia,robert.garcia20@techweb.org,835-34-9224,3721.23,0.116,Loyal VIP
+CUST_00271,Robert Brown,robert.brown21@example.com,746-60-5552,2780.12,0.731,High-Value Churn Risk
+CUST_00272,Patricia Davis,patricia.davis22@techweb.org,588-38-6345,2471.98,0.467,Promising Growth
+CUST_00273,William Miller,william.miller23@example.com,923-93-7683,3906.95,0.198,Loyal VIP
+CUST_00274,William Martinez,william.martinez24@techweb.org,400-92-7410,4910.1,0.364,Loyal VIP
+CUST_00275,Jennifer Davis,jennifer.davis25@mailcorp.net,799-66-3606,397.08,0.298,Standard
+CUST_00276,William Davis,william.davis26@mailcorp.net,772-59-2946,3829.33,0.237,Loyal VIP
+CUST_00277,Elizabeth Williams,elizabeth.williams27@mailcorp.net,617-17-1492,344.9,0.335,Standard
+CUST_00278,Patricia Williams,patricia.williams28@servicehub.io,659-65-8866,4907.6,0.401,Loyal VIP
+CUST_00279,Michael Garcia,michael.garcia29@mailcorp.net,253-15-1619,3983.72,0.055,Loyal VIP
+CUST_00280,Elizabeth Davis,elizabeth.davis30@mailcorp.net,451-74-8594,3366.34,0.163,Loyal VIP
+CUST_00281,William Jones,william.jones31@mailcorp.net,647-37-5009,4043.29,0.37,Loyal VIP
+CUST_00282,Jennifer Jones,jennifer.jones32@techweb.org,988-76-4947,3345.93,0.422,Loyal VIP
+CUST_00283,John Smith,john.smith33@servicehub.io,700-80-4824,3213.67,0.159,Loyal VIP
+CUST_00284,Patricia Brown,patricia.brown34@example.com,190-91-4008,1277.95,0.361,Standard
+CUST_00285,Elizabeth Smith,elizabeth.smith35@example.com,377-50-3780,2213.77,0.515,Promising Growth
+CUST_00286,John Williams,john.williams36@example.com,799-80-8470,4528.41,0.369,Loyal VIP
+CUST_00287,Patricia Johnson,patricia.johnson37@servicehub.io,208-17-7696,1548.9,0.18,Promising Growth
+CUST_00288,Elizabeth Williams,elizabeth.williams38@example.com,996-76-4607,1827.75,0.626,Promising Growth
+CUST_00289,Patricia Miller,patricia.miller39@example.com,680-62-8997,2706.91,0.472,Promising Growth
+CUST_00290,Linda Miller,linda.miller40@techweb.org,184-70-5307,1229.04,0.143,Standard
+CUST_00291,Robert Miller,robert.miller41@mailcorp.net,405-39-3749,4108.33,0.144,Loyal VIP
+CUST_00292,Jennifer Brown,jennifer.brown42@techweb.org,627-31-9501,2994.13,0.202,Promising Growth
+CUST_00293,Mary Rodriguez,mary.rodriguez43@example.com,750-19-3832,3047.61,0.104,Loyal VIP
+CUST_00294,James Rodriguez,james.rodriguez44@techweb.org,903-90-8361,3516.33,0.306,Loyal VIP
+CUST_00295,Michael Rodriguez,michael.rodriguez45@example.com,517-50-3524,796.64,0.351,Standard
+CUST_00296,James Miller,james.miller46@servicehub.io,164-90-8106,2464.25,0.26,Promising Growth
+CUST_00297,Patricia Williams,patricia.williams47@servicehub.io,177-67-2293,4232.06,0.226,Loyal VIP
+CUST_00298,James Smith,james.smith48@servicehub.io,438-74-2476,3620.42,0.397,Loyal VIP
+CUST_00299,Elizabeth Rodriguez,elizabeth.rodriguez49@servicehub.io,194-77-4093,3396.24,0.128,Loyal VIP
+CUST_00300,Michael Williams,michael.williams0@techweb.org,309-89-8291,1015.88,0.277,Standard
+CUST_00301,Jennifer Smith,jennifer.smith1@example.com,668-37-7989,3066.97,0.27,Loyal VIP
+CUST_00302,Jennifer Jones,jennifer.jones2@techweb.org,549-56-8846,4727.8,0.354,Loyal VIP
+CUST_00303,John Garcia,john.garcia3@example.com,859-29-8196,1693.74,0.284,Promising Growth
+CUST_00304,Elizabeth Jones,elizabeth.jones4@servicehub.io,417-50-2988,1030.09,0.077,Standard
+CUST_00305,John Martinez,john.martinez5@mailcorp.net,444-44-9399,3190.43,0.484,Loyal VIP
+CUST_00306,Jennifer Brown,jennifer.brown6@techweb.org,652-63-3195,3035.32,0.36,Loyal VIP
+CUST_00307,John Garcia,john.garcia7@techweb.org,382-19-8519,3089.04,0.168,Loyal VIP
+CUST_00308,James Williams,james.williams8@mailcorp.net,365-62-5757,4701.38,0.046,Loyal VIP
+CUST_00309,Patricia Miller,patricia.miller9@example.com,236-45-1082,4792.15,0.473,Loyal VIP
+CUST_00310,Jennifer Smith,jennifer.smith10@mailcorp.net,469-36-3101,1702.52,0.288,Promising Growth
+CUST_00311,Elizabeth Williams,elizabeth.williams11@servicehub.io,959-26-5138,3224.67,0.507,Loyal VIP
+CUST_00312,Michael Brown,michael.brown12@techweb.org,674-78-3346,1313.04,0.325,Standard
+CUST_00313,Mary Miller,mary.miller13@mailcorp.net,437-47-5370,2518.15,0.487,Promising Growth
+CUST_00314,Michael Davis,michael.davis14@techweb.org,849-17-1690,3876.64,0.101,Loyal VIP
+CUST_00315,James Garcia,james.garcia15@example.com,748-91-4258,2326.29,0.069,Promising Growth
+CUST_00316,Patricia Johnson,patricia.johnson16@servicehub.io,718-46-8697,4141.24,0.385,Loyal VIP
+CUST_00317,Michael Garcia,michael.garcia17@servicehub.io,935-88-8296,3845.76,0.646,High-Value Churn Risk
+CUST_00318,Robert Smith,robert.smith18@mailcorp.net,959-30-1241,4420.28,0.262,Loyal VIP
+CUST_00319,Patricia Davis,patricia.davis19@mailcorp.net,634-34-9468,3738.4,0.156,Loyal VIP
+CUST_00320,Elizabeth Smith,elizabeth.smith20@mailcorp.net,413-48-8024,602.58,0.711,At-Risk Low-Value
+CUST_00321,Jennifer Jones,jennifer.jones21@mailcorp.net,186-90-7219,4307.94,0.119,Loyal VIP
+CUST_00322,Robert Miller,robert.miller22@example.com,771-55-2647,676.0,0.32,Standard
+CUST_00323,James Smith,james.smith23@mailcorp.net,334-41-8081,4420.15,0.412,Loyal VIP
+CUST_00324,Elizabeth Miller,elizabeth.miller24@techweb.org,658-28-4453,4803.33,0.238,Loyal VIP
+CUST_00325,John Williams,john.williams25@mailcorp.net,274-74-2948,2550.55,0.446,Promising Growth
+CUST_00326,James Jones,james.jones26@servicehub.io,416-38-5390,799.93,0.099,Standard
+CUST_00327,Michael Martinez,michael.martinez27@example.com,202-62-1192,188.81,0.748,At-Risk Low-Value
+CUST_00328,William Garcia,william.garcia28@servicehub.io,172-65-4904,2378.77,0.198,Promising Growth
+CUST_00329,Michael Williams,michael.williams29@techweb.org,528-24-5994,165.5,0.654,At-Risk Low-Value
+CUST_00330,Mary Davis,mary.davis30@mailcorp.net,617-85-7328,3741.1,0.196,Loyal VIP
+CUST_00331,Jennifer Brown,jennifer.brown31@servicehub.io,320-76-1002,1817.55,0.187,Promising Growth
+CUST_00332,Patricia Martinez,patricia.martinez32@techweb.org,718-39-4306,4173.7,0.142,Loyal VIP
+CUST_00333,Linda Rodriguez,linda.rodriguez33@servicehub.io,235-82-1249,2785.36,0.026,Promising Growth
+CUST_00334,John Jones,john.jones34@techweb.org,803-53-4612,1994.44,0.061,Promising Growth
+CUST_00335,Michael Williams,michael.williams35@example.com,675-45-1489,2936.15,0.105,Promising Growth
+CUST_00336,Jennifer Davis,jennifer.davis36@servicehub.io,158-66-8404,1153.07,0.411,Standard
+CUST_00337,James Martinez,james.martinez37@mailcorp.net,277-21-1370,4126.97,0.368,Loyal VIP
+CUST_00338,John Garcia,john.garcia38@techweb.org,321-70-7111,1035.54,0.096,Standard
+CUST_00339,Michael Jones,michael.jones39@techweb.org,306-13-8647,3828.17,0.078,Loyal VIP
+CUST_00340,Jennifer Garcia,jennifer.garcia40@example.com,504-44-6710,2830.95,0.303,Promising Growth
+CUST_00341,Linda Davis,linda.davis41@techweb.org,554-86-7033,4239.87,0.531,Loyal VIP
+CUST_00342,Patricia Martinez,patricia.martinez42@techweb.org,464-44-7396,1658.71,0.15,Promising Growth
+CUST_00343,Robert Williams,robert.williams43@mailcorp.net,265-40-1919,3156.34,0.23,Loyal VIP
+CUST_00344,Robert Martinez,robert.martinez44@techweb.org,636-77-6660,3807.98,0.583,Loyal VIP
+CUST_00345,John Miller,john.miller45@servicehub.io,750-64-3587,2685.62,0.276,Promising Growth
+CUST_00346,Mary Miller,mary.miller46@mailcorp.net,821-96-4716,366.51,0.285,Standard
+CUST_00347,James Miller,james.miller47@servicehub.io,292-24-1615,3555.18,0.615,High-Value Churn Risk
+CUST_00348,Patricia Johnson,patricia.johnson48@servicehub.io,474-68-6162,2322.54,0.597,Promising Growth
+CUST_00349,Elizabeth Johnson,elizabeth.johnson49@example.com,841-75-4875,484.93,0.184,Standard
+CUST_00350,Linda Martinez,linda.martinez0@mailcorp.net,820-93-7582,4426.28,0.088,Loyal VIP
+CUST_00351,Robert Miller,robert.miller1@servicehub.io,355-82-3259,1159.51,0.252,Standard
+CUST_00352,Robert Brown,robert.brown2@servicehub.io,842-62-6750,2040.21,0.342,Promising Growth
+CUST_00353,Mary Johnson,mary.johnson3@techweb.org,463-67-9954,2398.63,0.214,Promising Growth
+CUST_00354,John Jones,john.jones4@mailcorp.net,907-81-6415,142.66,0.243,Standard
+CUST_00355,Linda Martinez,linda.martinez5@techweb.org,639-58-8587,3402.57,0.184,Loyal VIP
+CUST_00356,Linda Miller,linda.miller6@mailcorp.net,741-40-8542,3562.71,0.103,Loyal VIP
+CUST_00357,Linda Williams,linda.williams7@servicehub.io,211-69-6462,503.13,0.055,Standard
+CUST_00358,Linda Johnson,linda.johnson8@example.com,889-22-6208,2914.01,0.363,Promising Growth
+CUST_00359,Michael Miller,michael.miller9@example.com,948-41-3440,4708.05,0.3,Loyal VIP
+CUST_00360,Jennifer Williams,jennifer.williams10@servicehub.io,426-57-8185,703.84,0.088,Standard
+CUST_00361,James Smith,james.smith11@example.com,489-92-2881,4361.07,0.332,Loyal VIP
+CUST_00362,Jennifer Garcia,jennifer.garcia12@servicehub.io,319-62-6570,1171.68,0.378,Standard
+CUST_00363,Linda Miller,linda.miller13@servicehub.io,929-66-5482,4480.53,0.559,Loyal VIP
+CUST_00364,Patricia Rodriguez,patricia.rodriguez14@techweb.org,386-94-4558,2985.77,0.245,Promising Growth
+CUST_00365,Patricia Smith,patricia.smith15@mailcorp.net,580-10-1910,1077.58,0.177,Standard
+CUST_00366,Linda Davis,linda.davis16@techweb.org,573-68-5876,2393.54,0.525,Promising Growth
+CUST_00367,Mary Smith,mary.smith17@mailcorp.net,970-22-7751,1941.44,0.124,Promising Growth
+CUST_00368,Michael Smith,michael.smith18@servicehub.io,566-24-3761,3890.41,0.414,Loyal VIP
+CUST_00369,William Garcia,william.garcia19@techweb.org,100-53-3786,3793.3,0.267,Loyal VIP
+CUST_00370,William Rodriguez,william.rodriguez20@servicehub.io,171-36-4303,1079.22,0.345,Standard
+CUST_00371,Elizabeth Jones,elizabeth.jones21@example.com,523-32-5485,1892.84,0.535,Promising Growth
+CUST_00372,James Williams,james.williams22@techweb.org,238-97-8282,1539.5,0.322,Promising Growth
+CUST_00373,Linda Garcia,linda.garcia23@servicehub.io,649-46-8538,2581.02,0.394,Promising Growth
+CUST_00374,Elizabeth Smith,elizabeth.smith24@example.com,327-69-2517,3992.96,0.194,Loyal VIP
+CUST_00375,Elizabeth Johnson,elizabeth.johnson25@servicehub.io,907-72-7603,1010.09,0.382,Standard
+CUST_00376,Linda Davis,linda.davis26@techweb.org,753-34-8678,2557.44,0.423,Promising Growth
+CUST_00377,Linda Martinez,linda.martinez27@techweb.org,934-33-6314,3809.54,0.498,Loyal VIP
+CUST_00378,Mary Brown,mary.brown28@servicehub.io,570-13-5182,1564.4,0.339,Promising Growth
+CUST_00379,Robert Rodriguez,robert.rodriguez29@servicehub.io,532-95-7589,2480.51,0.399,Promising Growth
+CUST_00380,William Jones,william.jones30@servicehub.io,988-14-3672,321.72,0.128,Standard
+CUST_00381,John Davis,john.davis31@mailcorp.net,237-98-8347,152.97,0.286,Standard
+CUST_00382,Michael Jones,michael.jones32@servicehub.io,542-78-1584,4488.92,0.277,Loyal VIP
+CUST_00383,Michael Martinez,michael.martinez33@example.com,990-81-7078,2850.15,0.354,Promising Growth
+CUST_00384,Elizabeth Jones,elizabeth.jones34@servicehub.io,594-43-7686,358.55,0.106,Standard
+CUST_00385,James Rodriguez,james.rodriguez35@techweb.org,589-63-2449,4135.41,0.16,Loyal VIP
+CUST_00386,James Smith,james.smith36@mailcorp.net,701-22-9848,4189.5,0.396,Loyal VIP
+CUST_00387,Linda Garcia,linda.garcia37@example.com,894-22-3462,1586.1,0.252,Promising Growth
+CUST_00388,Robert Martinez,robert.martinez38@servicehub.io,489-79-3618,3316.41,0.234,Loyal VIP
+CUST_00389,Michael Williams,michael.williams39@techweb.org,590-44-8504,3276.36,0.512,Loyal VIP
+CUST_00390,Linda Smith,linda.smith40@techweb.org,462-59-6184,2276.16,0.175,Promising Growth
+CUST_00391,Patricia Davis,patricia.davis41@techweb.org,819-25-5524,1178.43,0.517,Standard
+CUST_00392,William Miller,william.miller42@example.com,875-80-4575,2376.6,0.117,Promising Growth
+CUST_00393,Jennifer Johnson,jennifer.johnson43@mailcorp.net,296-48-7715,2275.13,0.243,Promising Growth
+CUST_00394,Patricia Miller,patricia.miller44@mailcorp.net,387-27-2447,2782.61,0.37,Promising Growth
+CUST_00395,John Martinez,john.martinez45@techweb.org,910-26-8263,4832.16,0.573,Loyal VIP
+CUST_00396,Jennifer Williams,jennifer.williams46@mailcorp.net,292-93-3197,3938.16,0.307,Loyal VIP
+CUST_00397,James Rodriguez,james.rodriguez47@example.com,890-83-2106,4446.88,0.624,High-Value Churn Risk
+CUST_00398,Mary Davis,mary.davis48@servicehub.io,594-34-2609,4500.03,0.307,Loyal VIP
+CUST_00399,John Brown,john.brown49@servicehub.io,837-19-6578,216.17,0.252,Standard
+CUST_00400,Elizabeth Johnson,elizabeth.johnson0@mailcorp.net,430-25-9432,147.47,0.268,Standard
+CUST_00401,Elizabeth Brown,elizabeth.brown1@techweb.org,857-11-5922,2723.3,0.451,Promising Growth
+CUST_00402,Linda Smith,linda.smith2@techweb.org,352-90-5471,1371.0,0.057,Standard
+CUST_00403,Michael Brown,michael.brown3@servicehub.io,480-46-7940,1738.57,0.694,At-Risk Low-Value
+CUST_00404,Robert Miller,robert.miller4@servicehub.io,384-29-5933,1798.14,0.142,Promising Growth
+CUST_00405,John Miller,john.miller5@mailcorp.net,752-52-2909,1373.16,0.174,Standard
+CUST_00406,William Brown,william.brown6@example.com,387-13-4121,2045.26,0.417,Promising Growth
+CUST_00407,Mary Martinez,mary.martinez7@example.com,717-16-5675,4888.67,0.255,Loyal VIP
+CUST_00408,John Jones,john.jones8@servicehub.io,933-68-2907,2287.57,0.378,Promising Growth
+CUST_00409,Michael Jones,michael.jones9@techweb.org,206-97-3176,732.95,0.39,Standard
+CUST_00410,James Smith,james.smith10@techweb.org,447-74-5654,1130.56,0.113,Standard
+CUST_00411,Elizabeth Davis,elizabeth.davis11@mailcorp.net,270-84-7636,761.89,0.146,Standard
+CUST_00412,Elizabeth Davis,elizabeth.davis12@example.com,944-51-3350,393.72,0.42,Standard
+CUST_00413,William Johnson,william.johnson13@servicehub.io,573-98-7155,1726.66,0.218,Promising Growth
+CUST_00414,Patricia Miller,patricia.miller14@servicehub.io,677-74-2409,3352.74,0.215,Loyal VIP
+CUST_00415,Elizabeth Jones,elizabeth.jones15@mailcorp.net,827-23-5769,4594.61,0.134,Loyal VIP
+CUST_00416,Patricia Davis,patricia.davis16@example.com,195-42-8697,2947.86,0.49,Promising Growth
+CUST_00417,Robert Davis,robert.davis17@techweb.org,561-87-8148,4202.59,0.402,Loyal VIP
+CUST_00418,James Jones,james.jones18@techweb.org,454-26-5571,1346.96,0.292,Standard
+CUST_00419,John Jones,john.jones19@example.com,896-79-8774,1961.9,0.449,Promising Growth
+CUST_00420,Patricia Miller,patricia.miller20@servicehub.io,686-48-5078,4886.29,0.184,Loyal VIP
+CUST_00421,Robert Smith,robert.smith21@example.com,805-38-8493,3002.28,0.285,Loyal VIP
+CUST_00422,Patricia Brown,patricia.brown22@example.com,778-13-1242,2549.8,0.252,Promising Growth
+CUST_00423,Jennifer Brown,jennifer.brown23@techweb.org,976-95-6162,1061.6,0.155,Standard
+CUST_00424,Patricia Davis,patricia.davis24@techweb.org,851-48-7578,2969.38,0.134,Promising Growth
+CUST_00425,Jennifer Johnson,jennifer.johnson25@techweb.org,374-73-3949,1336.33,0.07,Standard
+CUST_00426,Patricia Garcia,patricia.garcia26@techweb.org,475-16-5362,4547.9,0.217,Loyal VIP
+CUST_00427,John Jones,john.jones27@example.com,145-62-1599,4628.13,0.438,Loyal VIP
+CUST_00428,Patricia Smith,patricia.smith28@techweb.org,465-20-8382,3971.07,0.639,High-Value Churn Risk
+CUST_00429,John Smith,john.smith29@servicehub.io,881-87-4618,3324.7,0.048,Loyal VIP
+CUST_00430,Linda Rodriguez,linda.rodriguez30@techweb.org,457-56-7719,2341.47,0.35,Promising Growth
+CUST_00431,James Johnson,james.johnson31@example.com,268-83-2464,3048.85,0.029,Loyal VIP
+CUST_00432,Robert Johnson,robert.johnson32@servicehub.io,743-52-9693,386.97,0.449,Standard
+CUST_00433,Linda Williams,linda.williams33@servicehub.io,855-52-6402,3004.58,0.248,Loyal VIP
+CUST_00434,Patricia Jones,patricia.jones34@example.com,650-57-6037,3800.15,0.411,Loyal VIP
+CUST_00435,Patricia Johnson,patricia.johnson35@mailcorp.net,792-80-7396,709.29,0.445,Standard
+CUST_00436,Robert Johnson,robert.johnson36@techweb.org,865-39-8928,4485.82,0.377,Loyal VIP
+CUST_00437,Jennifer Jones,jennifer.jones37@servicehub.io,858-38-2184,2877.77,0.651,High-Value Churn Risk
+CUST_00438,Mary Williams,mary.williams38@techweb.org,782-91-1421,1160.03,0.182,Standard
+CUST_00439,Mary Brown,mary.brown39@example.com,197-97-2473,4147.07,0.389,Loyal VIP
+CUST_00440,Michael Williams,michael.williams40@techweb.org,532-18-5524,4116.09,0.286,Loyal VIP
+CUST_00441,Michael Martinez,michael.martinez41@techweb.org,222-12-3395,1296.39,0.035,Standard
+CUST_00442,John Davis,john.davis42@servicehub.io,221-93-5270,2577.91,0.329,Promising Growth
+CUST_00443,Robert Rodriguez,robert.rodriguez43@techweb.org,114-80-5321,1007.86,0.502,Standard
+CUST_00444,Linda Davis,linda.davis44@example.com,405-21-2689,3808.11,0.112,Loyal VIP
+CUST_00445,Robert Rodriguez,robert.rodriguez45@mailcorp.net,289-22-2819,476.11,0.059,Standard
+CUST_00446,Patricia Smith,patricia.smith46@servicehub.io,913-76-6911,1645.28,0.11,Promising Growth
+CUST_00447,Mary Johnson,mary.johnson47@mailcorp.net,912-56-5683,456.4,0.242,Standard
+CUST_00448,Robert Martinez,robert.martinez48@mailcorp.net,113-54-5658,3724.45,0.235,Loyal VIP
+CUST_00449,James Williams,james.williams49@servicehub.io,990-61-4197,392.12,0.129,Standard
+CUST_00450,Michael Garcia,michael.garcia0@mailcorp.net,627-37-5539,4971.0,0.027,Loyal VIP
+CUST_00451,Jennifer Miller,jennifer.miller1@techweb.org,163-96-6014,2986.2,0.197,Promising Growth
+CUST_00452,Michael Miller,michael.miller2@techweb.org,912-53-6585,438.85,0.143,Standard
+CUST_00453,Jennifer Rodriguez,jennifer.rodriguez3@example.com,208-66-8966,1059.2,0.114,Standard
+CUST_00454,Jennifer Jones,jennifer.jones4@servicehub.io,500-37-8080,995.48,0.31,Standard
+CUST_00455,Jennifer Johnson,jennifer.johnson5@servicehub.io,870-33-6650,3165.84,0.017,Loyal VIP
+CUST_00456,Patricia Rodriguez,patricia.rodriguez6@example.com,607-98-1220,4069.79,0.549,Loyal VIP
+CUST_00457,John Smith,john.smith7@mailcorp.net,947-64-6521,1601.44,0.431,Promising Growth
+CUST_00458,Michael Martinez,michael.martinez8@mailcorp.net,641-27-6051,171.58,0.662,At-Risk Low-Value
+CUST_00459,William Martinez,william.martinez9@servicehub.io,308-25-9334,853.54,0.176,Standard
+CUST_00460,Mary Brown,mary.brown10@mailcorp.net,720-83-6214,751.35,0.055,Standard
+CUST_00461,John Jones,john.jones11@example.com,397-22-5471,2139.69,0.397,Promising Growth
+CUST_00462,Jennifer Davis,jennifer.davis12@servicehub.io,890-49-2174,1991.1,0.428,Promising Growth
+CUST_00463,Patricia Miller,patricia.miller13@example.com,592-11-4084,2198.1,0.386,Promising Growth
+CUST_00464,Jennifer Brown,jennifer.brown14@servicehub.io,424-92-8099,1418.89,0.428,Standard
+CUST_00465,William Miller,william.miller15@techweb.org,282-23-8088,3322.81,0.23,Loyal VIP
+CUST_00466,Jennifer Davis,jennifer.davis16@techweb.org,683-91-7738,4389.89,0.433,Loyal VIP
+CUST_00467,William Garcia,william.garcia17@servicehub.io,314-15-4197,1724.92,0.581,Promising Growth
+CUST_00468,Mary Williams,mary.williams18@techweb.org,265-70-7221,2282.51,0.362,Promising Growth
+CUST_00469,John Brown,john.brown19@servicehub.io,835-95-6178,4035.9,0.253,Loyal VIP
+CUST_00470,John Williams,john.williams20@mailcorp.net,336-16-3330,4801.41,0.258,Loyal VIP
+CUST_00471,Elizabeth Jones,elizabeth.jones21@example.com,789-72-6603,2931.36,0.302,Promising Growth
+CUST_00472,James Davis,james.davis22@servicehub.io,762-91-5813,1697.93,0.013,Promising Growth
+CUST_00473,John Rodriguez,john.rodriguez23@mailcorp.net,587-70-2907,2766.86,0.358,Promising Growth
+CUST_00474,Mary Johnson,mary.johnson24@mailcorp.net,576-40-4775,2588.01,0.085,Promising Growth
+CUST_00475,Patricia Jones,patricia.jones25@example.com,856-31-8951,4280.89,0.214,Loyal VIP
+CUST_00476,Patricia Jones,patricia.jones26@techweb.org,581-15-7468,1372.06,0.11,Standard
+CUST_00477,Elizabeth Rodriguez,elizabeth.rodriguez27@mailcorp.net,364-95-8893,3737.23,0.037,Loyal VIP
+CUST_00478,Linda Brown,linda.brown28@servicehub.io,224-91-8450,1936.64,0.35,Promising Growth
+CUST_00479,Jennifer Johnson,jennifer.johnson29@techweb.org,981-97-3741,1772.1,0.303,Promising Growth
+CUST_00480,Michael Garcia,michael.garcia30@techweb.org,897-67-4779,4945.32,0.532,Loyal VIP
+CUST_00481,Patricia Johnson,patricia.johnson31@techweb.org,896-30-3521,1793.34,0.128,Promising Growth
+CUST_00482,Patricia Davis,patricia.davis32@techweb.org,939-74-1240,771.4,0.211,Standard
+CUST_00483,John Garcia,john.garcia33@techweb.org,311-38-7568,2731.5,0.058,Promising Growth
+CUST_00484,Jennifer Miller,jennifer.miller34@example.com,306-65-2301,3617.87,0.135,Loyal VIP
+CUST_00485,Jennifer Davis,jennifer.davis35@mailcorp.net,947-74-1585,2562.08,0.092,Promising Growth
+CUST_00486,Patricia Miller,patricia.miller36@servicehub.io,758-11-9316,2291.29,0.725,At-Risk Low-Value
+CUST_00487,Robert Martinez,robert.martinez37@mailcorp.net,310-27-1901,2126.23,0.539,Promising Growth
+CUST_00488,Michael Rodriguez,michael.rodriguez38@example.com,928-11-2590,4162.84,0.373,Loyal VIP
+CUST_00489,John Williams,john.williams39@techweb.org,512-43-3728,4596.47,0.471,Loyal VIP
+CUST_00490,James Brown,james.brown40@servicehub.io,617-19-3630,4141.55,0.538,Loyal VIP
+CUST_00491,John Martinez,john.martinez41@techweb.org,815-65-9911,3510.79,0.364,Loyal VIP
+CUST_00492,Mary Martinez,mary.martinez42@mailcorp.net,738-45-7257,4430.05,0.48,Loyal VIP
+CUST_00493,Robert Jones,robert.jones43@mailcorp.net,140-54-1343,821.1,0.438,Standard
+CUST_00494,William Brown,william.brown44@example.com,372-59-3415,2949.66,0.261,Promising Growth
+CUST_00495,Elizabeth Smith,elizabeth.smith45@mailcorp.net,653-93-3148,3036.93,0.071,Loyal VIP
+CUST_00496,William Jones,william.jones46@techweb.org,630-61-1153,1382.58,0.277,Standard
+CUST_00497,John Smith,john.smith47@servicehub.io,687-58-4767,1775.06,0.377,Promising Growth
+CUST_00498,Robert Garcia,robert.garcia48@techweb.org,145-55-8011,4044.98,0.482,Loyal VIP
+CUST_00499,Elizabeth Davis,elizabeth.davis49@example.com,586-15-7031,2453.44,0.275,Promising Growth
+CUST_00500,James Martinez,james.martinez0@example.com,400-93-6694,620.02,0.131,Standard
+CUST_00501,James Martinez,james.martinez1@servicehub.io,880-87-3941,2288.96,0.058,Promising Growth
+CUST_00502,Mary Brown,mary.brown2@servicehub.io,798-55-5994,2512.58,0.118,Promising Growth
+CUST_00503,Jennifer Brown,jennifer.brown3@mailcorp.net,117-21-5275,4097.15,0.502,Loyal VIP
+CUST_00504,Jennifer Brown,jennifer.brown4@techweb.org,664-57-9634,3433.88,0.016,Loyal VIP
+CUST_00505,William Williams,william.williams5@example.com,628-35-5500,3765.28,0.334,Loyal VIP
+CUST_00506,Michael Miller,michael.miller6@mailcorp.net,877-21-1363,554.3,0.243,Standard
+CUST_00507,Michael Brown,michael.brown7@mailcorp.net,496-94-8288,4852.11,0.338,Loyal VIP
+CUST_00508,Linda Williams,linda.williams8@techweb.org,546-66-7795,2499.95,0.26,Promising Growth
+CUST_00509,Patricia Davis,patricia.davis9@servicehub.io,576-85-6645,4294.41,0.04,Loyal VIP
+CUST_00510,Patricia Davis,patricia.davis10@techweb.org,234-18-6413,279.89,0.255,Standard
+CUST_00511,James Williams,james.williams11@mailcorp.net,393-33-6682,518.47,0.104,Standard
+CUST_00512,Linda Smith,linda.smith12@techweb.org,117-65-3779,620.19,0.401,Standard
+CUST_00513,Patricia Martinez,patricia.martinez13@servicehub.io,845-35-9216,684.13,0.115,Standard
+CUST_00514,James Jones,james.jones14@mailcorp.net,695-44-5530,2930.3,0.362,Promising Growth
+CUST_00515,Robert Martinez,robert.martinez15@techweb.org,535-58-1138,4355.93,0.257,Loyal VIP
+CUST_00516,Elizabeth Williams,elizabeth.williams16@mailcorp.net,840-28-4381,931.82,0.39,Standard
+CUST_00517,Robert Martinez,robert.martinez17@mailcorp.net,281-22-6378,4275.04,0.328,Loyal VIP
+CUST_00518,Mary Jones,mary.jones18@mailcorp.net,357-16-4159,1794.71,0.207,Promising Growth
+CUST_00519,Robert Martinez,robert.martinez19@servicehub.io,944-50-6812,1649.45,0.198,Promising Growth
+CUST_00520,John Brown,john.brown20@example.com,809-74-7154,3509.4,0.222,Loyal VIP
+CUST_00521,James Miller,james.miller21@servicehub.io,560-32-3682,1097.32,0.165,Standard
+CUST_00522,William Martinez,william.martinez22@example.com,355-18-4908,4574.83,0.048,Loyal VIP
+CUST_00523,Michael Martinez,michael.martinez23@example.com,467-67-3637,586.23,0.434,Standard
+CUST_00524,Robert Williams,robert.williams24@mailcorp.net,782-24-7821,1620.5,0.436,Promising Growth
+CUST_00525,Mary Davis,mary.davis25@servicehub.io,380-96-4019,1271.17,0.119,Standard
+CUST_00526,William Miller,william.miller26@mailcorp.net,204-87-9963,2497.21,0.416,Promising Growth
+CUST_00527,Patricia Jones,patricia.jones27@mailcorp.net,845-10-8334,3352.34,0.066,Loyal VIP
+CUST_00528,Jennifer Miller,jennifer.miller28@mailcorp.net,231-58-1835,2572.72,0.284,Promising Growth
+CUST_00529,Linda Williams,linda.williams29@techweb.org,709-64-5784,3614.58,0.414,Loyal VIP
+CUST_00530,Patricia Williams,patricia.williams30@mailcorp.net,468-95-6233,4328.5,0.302,Loyal VIP
+CUST_00531,Elizabeth Miller,elizabeth.miller31@mailcorp.net,183-88-7811,1625.77,0.1,Promising Growth
+CUST_00532,Mary Brown,mary.brown32@servicehub.io,567-61-9210,2410.97,0.312,Promising Growth
+CUST_00533,Robert Miller,robert.miller33@mailcorp.net,141-50-1452,2306.16,0.079,Promising Growth
+CUST_00534,James Smith,james.smith34@techweb.org,177-94-8892,488.14,0.101,Standard
+CUST_00535,John Brown,john.brown35@mailcorp.net,772-22-6111,4477.19,0.446,Loyal VIP
+CUST_00536,Jennifer Rodriguez,jennifer.rodriguez36@example.com,170-67-9283,4641.85,0.326,Loyal VIP
+CUST_00537,John Smith,john.smith37@example.com,336-12-4497,2934.85,0.127,Promising Growth
+CUST_00538,Michael Brown,michael.brown38@servicehub.io,783-94-6303,4836.14,0.079,Loyal VIP
+CUST_00539,James Johnson,james.johnson39@techweb.org,310-16-9894,3089.96,0.506,Loyal VIP
+CUST_00540,Mary Jones,mary.jones40@mailcorp.net,862-80-6670,2087.66,0.177,Promising Growth
+CUST_00541,John Davis,john.davis41@mailcorp.net,936-27-6176,3373.22,0.569,Loyal VIP
+CUST_00542,Patricia Smith,patricia.smith42@example.com,532-10-2545,1378.16,0.258,Standard
+CUST_00543,Mary Miller,mary.miller43@servicehub.io,501-47-7654,2947.96,0.27,Promising Growth
+CUST_00544,Patricia Miller,patricia.miller44@servicehub.io,508-37-8371,887.1,0.166,Standard
+CUST_00545,Michael Brown,michael.brown45@techweb.org,187-98-6816,334.78,0.205,Standard
+CUST_00546,Elizabeth Smith,elizabeth.smith46@servicehub.io,426-71-2502,4264.74,0.531,Loyal VIP
+CUST_00547,Elizabeth Williams,elizabeth.williams47@mailcorp.net,517-53-2101,4092.49,0.23,Loyal VIP
+CUST_00548,John Williams,john.williams48@example.com,431-57-5752,3139.15,0.272,Loyal VIP
+CUST_00549,Jennifer Williams,jennifer.williams49@example.com,830-86-4557,4884.64,0.214,Loyal VIP
+CUST_00550,Jennifer Williams,jennifer.williams0@techweb.org,155-98-4395,3758.36,0.511,Loyal VIP
+CUST_00551,James Rodriguez,james.rodriguez1@mailcorp.net,860-86-9257,1713.96,0.428,Promising Growth
+CUST_00552,John Martinez,john.martinez2@servicehub.io,827-78-2036,1203.29,0.343,Standard
+CUST_00553,Linda Garcia,linda.garcia3@servicehub.io,739-54-6666,2424.73,0.217,Promising Growth
+CUST_00554,Elizabeth Brown,elizabeth.brown4@mailcorp.net,678-81-3590,1241.01,0.398,Standard
+CUST_00555,William Johnson,william.johnson5@mailcorp.net,563-34-7539,753.09,0.157,Standard
+CUST_00556,Jennifer Garcia,jennifer.garcia6@mailcorp.net,313-93-8768,2249.38,0.235,Promising Growth
+CUST_00557,Mary Jones,mary.jones7@techweb.org,885-47-8645,2546.01,0.309,Promising Growth
+CUST_00558,Michael Smith,michael.smith8@servicehub.io,921-44-8777,4397.93,0.102,Loyal VIP
+CUST_00559,Robert Miller,robert.miller9@example.com,759-33-4933,650.75,0.311,Standard
+CUST_00560,Jennifer Jones,jennifer.jones10@techweb.org,837-62-7030,2324.24,0.158,Promising Growth
+CUST_00561,Elizabeth Williams,elizabeth.williams11@techweb.org,871-12-7207,3054.18,0.328,Loyal VIP
+CUST_00562,Mary Brown,mary.brown12@techweb.org,210-91-9638,728.91,0.109,Standard
+CUST_00563,Mary Martinez,mary.martinez13@example.com,876-11-2211,3942.93,0.322,Loyal VIP
+CUST_00564,Jennifer Smith,jennifer.smith14@techweb.org,488-70-4052,3527.72,0.079,Loyal VIP
+CUST_00565,James Jones,james.jones15@techweb.org,146-22-9399,2350.59,0.136,Promising Growth
+CUST_00566,Jennifer Rodriguez,jennifer.rodriguez16@techweb.org,555-17-6728,2797.8,0.291,Promising Growth
+CUST_00567,Elizabeth Johnson,elizabeth.johnson17@example.com,704-18-6785,3790.28,0.394,Loyal VIP
+CUST_00568,Michael Miller,michael.miller18@example.com,843-89-5709,340.12,0.365,Standard
+CUST_00569,Linda Martinez,linda.martinez19@example.com,916-52-8131,2945.7,0.547,Promising Growth
+CUST_00570,Elizabeth Johnson,elizabeth.johnson20@example.com,172-36-7985,2612.89,0.269,Promising Growth
+CUST_00571,Robert Johnson,robert.johnson21@mailcorp.net,605-91-4670,4065.05,0.049,Loyal VIP
+CUST_00572,James Smith,james.smith22@techweb.org,996-12-5141,3895.4,0.312,Loyal VIP
+CUST_00573,Linda Martinez,linda.martinez23@techweb.org,635-37-2507,4567.75,0.427,Loyal VIP
+CUST_00574,William Johnson,william.johnson24@techweb.org,804-88-2603,2295.06,0.483,Promising Growth
+CUST_00575,Michael Williams,michael.williams25@servicehub.io,106-58-3208,607.03,0.091,Standard
+CUST_00576,James Davis,james.davis26@techweb.org,211-39-3083,804.95,0.224,Standard
+CUST_00577,Jennifer Davis,jennifer.davis27@techweb.org,208-62-6795,525.24,0.34,Standard
+CUST_00578,Michael Miller,michael.miller28@example.com,921-94-8503,2601.55,0.365,Promising Growth
+CUST_00579,James Williams,james.williams29@mailcorp.net,970-67-3542,4446.51,0.116,Loyal VIP
+CUST_00580,Patricia Miller,patricia.miller30@mailcorp.net,858-21-9697,4687.27,0.196,Loyal VIP
+CUST_00581,James Brown,james.brown31@servicehub.io,757-18-8281,3633.17,0.151,Loyal VIP
+CUST_00582,Michael Williams,michael.williams32@techweb.org,725-71-9511,326.36,0.088,Standard
+CUST_00583,Patricia Jones,patricia.jones33@servicehub.io,911-14-5652,4825.33,0.2,Loyal VIP
+CUST_00584,John Martinez,john.martinez34@example.com,352-39-7041,2057.22,0.116,Promising Growth
+CUST_00585,John Miller,john.miller35@techweb.org,492-11-2468,803.74,0.212,Standard
+CUST_00586,Robert Martinez,robert.martinez36@mailcorp.net,911-83-1767,4920.3,0.369,Loyal VIP
+CUST_00587,Jennifer Miller,jennifer.miller37@techweb.org,496-12-3073,3211.16,0.649,High-Value Churn Risk
+CUST_00588,James Brown,james.brown38@mailcorp.net,622-27-9788,3171.18,0.125,Loyal VIP
+CUST_00589,Linda Johnson,linda.johnson39@example.com,978-82-8282,4272.75,0.263,Loyal VIP
+CUST_00590,Michael Davis,michael.davis40@servicehub.io,125-36-1701,2673.25,0.14,Promising Growth
+CUST_00591,Robert Williams,robert.williams41@example.com,466-25-5886,1976.22,0.49,Promising Growth
+CUST_00592,James Martinez,james.martinez42@example.com,633-88-6738,2295.62,0.032,Promising Growth
+CUST_00593,Michael Smith,michael.smith43@mailcorp.net,787-74-1752,2872.67,0.113,Promising Growth
+CUST_00594,William Davis,william.davis44@servicehub.io,941-26-2782,1166.85,0.489,Standard
+CUST_00595,John Garcia,john.garcia45@techweb.org,762-57-5550,832.24,0.623,Standard
+CUST_00596,William Brown,william.brown46@mailcorp.net,880-60-2209,2152.73,0.37,Promising Growth
+CUST_00597,John Johnson,john.johnson47@techweb.org,428-85-5228,4825.99,0.36,Loyal VIP
+CUST_00598,Mary Rodriguez,mary.rodriguez48@mailcorp.net,392-54-4170,2713.21,0.224,Promising Growth
+CUST_00599,Elizabeth Rodriguez,elizabeth.rodriguez49@techweb.org,819-83-6791,1773.69,0.354,Promising Growth
+CUST_00600,William Smith,william.smith0@example.com,422-27-2416,3156.34,0.298,Loyal VIP
+CUST_00601,James Davis,james.davis1@mailcorp.net,855-12-1075,4087.18,0.092,Loyal VIP
+CUST_00602,Robert Jones,robert.jones2@techweb.org,446-75-4998,2921.38,0.266,Promising Growth
+CUST_00603,Michael Jones,michael.jones3@example.com,157-14-3739,2755.87,0.297,Promising Growth
+CUST_00604,Mary Rodriguez,mary.rodriguez4@servicehub.io,125-79-9184,4114.25,0.297,Loyal VIP
+CUST_00605,William Williams,william.williams5@techweb.org,431-14-3017,3171.48,0.283,Loyal VIP
+CUST_00606,Robert Davis,robert.davis6@servicehub.io,857-42-7343,2652.32,0.405,Promising Growth
+CUST_00607,Elizabeth Miller,elizabeth.miller7@example.com,355-97-5975,4386.35,0.444,Loyal VIP
+CUST_00608,Mary Brown,mary.brown8@example.com,930-78-4401,4381.02,0.283,Loyal VIP
+CUST_00609,John Martinez,john.martinez9@mailcorp.net,640-32-9624,486.76,0.717,At-Risk Low-Value
+CUST_00610,Patricia Williams,patricia.williams10@example.com,458-65-7732,4046.78,0.198,Loyal VIP
+CUST_00611,Jennifer Smith,jennifer.smith11@techweb.org,830-79-8799,2483.77,0.188,Promising Growth
+CUST_00612,Elizabeth Smith,elizabeth.smith12@servicehub.io,106-25-8906,2766.13,0.271,Promising Growth
+CUST_00613,Patricia Smith,patricia.smith13@servicehub.io,908-15-5055,1452.15,0.033,Standard
+CUST_00614,Patricia Garcia,patricia.garcia14@techweb.org,666-10-2221,4593.68,0.112,Loyal VIP
+CUST_00615,Michael Martinez,michael.martinez15@techweb.org,414-38-3665,1410.88,0.283,Standard
+CUST_00616,Jennifer Rodriguez,jennifer.rodriguez16@techweb.org,387-91-4949,1421.74,0.158,Standard
+CUST_00617,Robert Williams,robert.williams17@techweb.org,878-40-6085,1570.33,0.153,Promising Growth
+CUST_00618,Mary Martinez,mary.martinez18@servicehub.io,229-93-9405,4672.65,0.086,Loyal VIP
+CUST_00619,Linda Jones,linda.jones19@mailcorp.net,538-59-4981,2488.14,0.462,Promising Growth
+CUST_00620,Robert Miller,robert.miller20@mailcorp.net,511-84-1294,1094.08,0.28,Standard
+CUST_00621,Michael Jones,michael.jones21@servicehub.io,945-81-9712,1103.13,0.414,Standard
+CUST_00622,James Smith,james.smith22@techweb.org,194-15-3765,2851.81,0.491,Promising Growth
+CUST_00623,James Miller,james.miller23@mailcorp.net,255-23-7571,1281.22,0.169,Standard
+CUST_00624,Linda Jones,linda.jones24@servicehub.io,379-43-8847,4693.66,0.269,Loyal VIP
+CUST_00625,William Davis,william.davis25@servicehub.io,810-32-8637,1387.08,0.176,Standard
+CUST_00626,Linda Davis,linda.davis26@mailcorp.net,217-62-9067,1818.48,0.435,Promising Growth
+CUST_00627,Elizabeth Rodriguez,elizabeth.rodriguez27@example.com,837-16-3983,1032.87,0.295,Standard
+CUST_00628,Patricia Martinez,patricia.martinez28@mailcorp.net,463-34-2030,2517.08,0.147,Promising Growth
+CUST_00629,Linda Williams,linda.williams29@techweb.org,874-32-2724,1156.01,0.481,Standard
+CUST_00630,William Martinez,william.martinez30@example.com,983-87-4110,952.49,0.722,At-Risk Low-Value
+CUST_00631,James Martinez,james.martinez31@techweb.org,897-31-2794,1033.82,0.413,Standard
+CUST_00632,Linda Johnson,linda.johnson32@example.com,466-11-1224,4194.15,0.317,Loyal VIP
+CUST_00633,John Smith,john.smith33@techweb.org,599-42-9701,2887.18,0.163,Promising Growth
+CUST_00634,Linda Miller,linda.miller34@techweb.org,853-80-8630,1666.63,0.186,Promising Growth
+CUST_00635,Linda Miller,linda.miller35@techweb.org,774-58-2325,1973.58,0.055,Promising Growth
+CUST_00636,James Smith,james.smith36@techweb.org,977-61-2824,4673.72,0.215,Loyal VIP
+CUST_00637,Linda Williams,linda.williams37@example.com,752-74-7382,499.22,0.399,Standard
+CUST_00638,Jennifer Brown,jennifer.brown38@techweb.org,152-87-1823,924.36,0.387,Standard
+CUST_00639,Patricia Garcia,patricia.garcia39@techweb.org,954-77-4718,1440.97,0.247,Standard
+CUST_00640,Michael Miller,michael.miller40@techweb.org,973-71-5335,2292.75,0.165,Promising Growth
+CUST_00641,Mary Johnson,mary.johnson41@servicehub.io,754-88-2568,4167.99,0.062,Loyal VIP
+CUST_00642,William Miller,william.miller42@example.com,720-40-2764,4842.54,0.223,Loyal VIP
+CUST_00643,John Miller,john.miller43@techweb.org,521-76-4620,4182.64,0.651,High-Value Churn Risk
+CUST_00644,James Martinez,james.martinez44@servicehub.io,979-36-7895,2273.86,0.186,Promising Growth
+CUST_00645,Mary Brown,mary.brown45@servicehub.io,244-89-3423,1712.46,0.542,Promising Growth
+CUST_00646,Michael Smith,michael.smith46@techweb.org,684-48-5009,4441.02,0.293,Loyal VIP
+CUST_00647,Patricia Williams,patricia.williams47@mailcorp.net,329-63-2341,3677.64,0.522,Loyal VIP
+CUST_00648,Elizabeth Davis,elizabeth.davis48@example.com,943-79-1132,1955.5,0.32,Promising Growth
+CUST_00649,Michael Jones,michael.jones49@mailcorp.net,261-84-2909,2472.64,0.351,Promising Growth
+CUST_00650,James Garcia,james.garcia0@mailcorp.net,122-55-7967,1037.09,0.045,Standard
+CUST_00651,James Martinez,james.martinez1@techweb.org,951-27-4179,1847.38,0.106,Promising Growth
+CUST_00652,William Johnson,william.johnson2@servicehub.io,456-26-5647,3003.22,0.633,High-Value Churn Risk
+CUST_00653,Linda Johnson,linda.johnson3@servicehub.io,782-48-5784,1457.08,0.325,Standard
+CUST_00654,Robert Jones,robert.jones4@servicehub.io,635-64-9728,811.6,0.344,Standard
+CUST_00655,Linda Rodriguez,linda.rodriguez5@servicehub.io,134-72-4523,3880.22,0.203,Loyal VIP
+CUST_00656,Michael Johnson,michael.johnson6@techweb.org,626-66-1028,3983.44,0.138,Loyal VIP
+CUST_00657,Linda Garcia,linda.garcia7@example.com,637-80-1614,4353.04,0.161,Loyal VIP
+CUST_00658,Jennifer Smith,jennifer.smith8@example.com,264-70-7941,2524.65,0.372,Promising Growth
+CUST_00659,James Smith,james.smith9@example.com,968-93-9128,141.63,0.291,Standard
+CUST_00660,Patricia Jones,patricia.jones10@mailcorp.net,920-26-1597,3078.53,0.624,High-Value Churn Risk
+CUST_00661,Robert Garcia,robert.garcia11@example.com,700-35-8846,128.74,0.343,Standard
+CUST_00662,Linda Davis,linda.davis12@techweb.org,572-28-8233,3723.86,0.369,Loyal VIP
+CUST_00663,James Jones,james.jones13@mailcorp.net,688-36-9002,1981.69,0.272,Promising Growth
+CUST_00664,James Davis,james.davis14@example.com,440-66-9022,1893.54,0.178,Promising Growth
+CUST_00665,Jennifer Brown,jennifer.brown15@servicehub.io,654-32-2209,3066.68,0.331,Loyal VIP
+CUST_00666,William Martinez,william.martinez16@servicehub.io,150-97-9444,3294.15,0.299,Loyal VIP
+CUST_00667,Jennifer Martinez,jennifer.martinez17@mailcorp.net,650-80-6411,778.15,0.164,Standard
+CUST_00668,Michael Rodriguez,michael.rodriguez18@mailcorp.net,799-11-4301,1211.0,0.413,Standard
+CUST_00669,Patricia Martinez,patricia.martinez19@mailcorp.net,914-66-7214,1070.21,0.073,Standard
+CUST_00670,Elizabeth Miller,elizabeth.miller20@mailcorp.net,705-51-5864,4060.95,0.512,Loyal VIP
+CUST_00671,Jennifer Brown,jennifer.brown21@mailcorp.net,740-39-1864,3267.19,0.206,Loyal VIP
+CUST_00672,Jennifer Martinez,jennifer.martinez22@mailcorp.net,435-47-1946,186.46,0.487,Standard
+CUST_00673,John Brown,john.brown23@mailcorp.net,286-23-5811,3417.49,0.199,Loyal VIP
+CUST_00674,Linda Martinez,linda.martinez24@mailcorp.net,229-90-1669,221.81,0.463,Standard
+CUST_00675,John Brown,john.brown25@servicehub.io,267-54-8619,2541.17,0.092,Promising Growth
+CUST_00676,Jennifer Williams,jennifer.williams26@servicehub.io,737-16-3511,1526.86,0.145,Promising Growth
+CUST_00677,Linda Smith,linda.smith27@mailcorp.net,897-29-7843,1195.65,0.194,Standard
+CUST_00678,William Johnson,william.johnson28@example.com,955-75-4247,938.32,0.398,Standard
+CUST_00679,James Martinez,james.martinez29@example.com,492-69-2646,4964.88,0.091,Loyal VIP
+CUST_00680,Michael Davis,michael.davis30@techweb.org,335-34-4034,4200.63,0.191,Loyal VIP
+CUST_00681,Mary Rodriguez,mary.rodriguez31@mailcorp.net,448-67-5109,2648.57,0.06,Promising Growth
+CUST_00682,Patricia Garcia,patricia.garcia32@servicehub.io,918-51-2124,2321.74,0.499,Promising Growth
+CUST_00683,Patricia Martinez,patricia.martinez33@techweb.org,204-43-7523,4323.21,0.022,Loyal VIP
+CUST_00684,James Jones,james.jones34@servicehub.io,882-37-6615,1020.84,0.414,Standard
+CUST_00685,James Rodriguez,james.rodriguez35@mailcorp.net,619-30-7458,980.32,0.363,Standard
+CUST_00686,Patricia Garcia,patricia.garcia36@mailcorp.net,892-12-8382,4020.75,0.11,Loyal VIP
+CUST_00687,James Jones,james.jones37@servicehub.io,531-59-7028,1999.36,0.354,Promising Growth
+CUST_00688,Jennifer Jones,jennifer.jones38@techweb.org,375-29-1788,2997.62,0.324,Promising Growth
+CUST_00689,Elizabeth Miller,elizabeth.miller39@servicehub.io,544-70-7745,2216.4,0.609,Promising Growth
+CUST_00690,William Davis,william.davis40@techweb.org,227-80-5663,4554.13,0.04,Loyal VIP
+CUST_00691,William Williams,william.williams41@example.com,898-94-3463,1767.09,0.158,Promising Growth
+CUST_00692,Linda Martinez,linda.martinez42@servicehub.io,520-74-3024,468.1,0.426,Standard
+CUST_00693,James Williams,james.williams43@mailcorp.net,430-50-6404,4657.03,0.557,Loyal VIP
+CUST_00694,Elizabeth Martinez,elizabeth.martinez44@servicehub.io,309-39-9444,1077.9,0.314,Standard
+CUST_00695,James Brown,james.brown45@example.com,753-18-2885,2138.75,0.241,Promising Growth
+CUST_00696,Linda Garcia,linda.garcia46@techweb.org,193-53-9627,2872.85,0.191,Promising Growth
+CUST_00697,Elizabeth Garcia,elizabeth.garcia47@mailcorp.net,944-48-3873,730.9,0.206,Standard
+CUST_00698,Elizabeth Garcia,elizabeth.garcia48@example.com,669-82-9333,3397.74,0.337,Loyal VIP
+CUST_00699,Mary Smith,mary.smith49@servicehub.io,142-17-8923,134.77,0.13,Standard
+CUST_00700,James Williams,james.williams0@mailcorp.net,388-39-6646,4366.29,0.606,High-Value Churn Risk
+CUST_00701,Michael Brown,michael.brown1@mailcorp.net,657-73-1941,2125.38,0.015,Promising Growth
+CUST_00702,Jennifer Davis,jennifer.davis2@example.com,950-75-9853,2729.38,0.142,Promising Growth
+CUST_00703,Jennifer Brown,jennifer.brown3@example.com,882-74-3709,3500.0,0.334,Loyal VIP
+CUST_00704,James Rodriguez,james.rodriguez4@techweb.org,724-14-3130,1818.15,0.667,At-Risk Low-Value
+CUST_00705,Patricia Jones,patricia.jones5@techweb.org,428-50-3689,3574.72,0.202,Loyal VIP
+CUST_00706,John Rodriguez,john.rodriguez6@example.com,779-64-9812,473.88,0.246,Standard
+CUST_00707,William Martinez,william.martinez7@servicehub.io,247-84-8819,4593.11,0.161,Loyal VIP
+CUST_00708,William Johnson,william.johnson8@mailcorp.net,610-98-8522,3674.65,0.428,Loyal VIP
+CUST_00709,Michael Rodriguez,michael.rodriguez9@mailcorp.net,705-59-7287,4033.02,0.35,Loyal VIP
+CUST_00710,Elizabeth Davis,elizabeth.davis10@techweb.org,282-24-2306,4630.02,0.215,Loyal VIP
+CUST_00711,Robert Martinez,robert.martinez11@example.com,420-77-3431,4613.7,0.21,Loyal VIP
+CUST_00712,Patricia Johnson,patricia.johnson12@servicehub.io,502-33-6868,3304.57,0.05,Loyal VIP
+CUST_00713,Patricia Smith,patricia.smith13@example.com,450-53-2789,4207.93,0.068,Loyal VIP
+CUST_00714,Michael Martinez,michael.martinez14@mailcorp.net,375-88-6150,2481.62,0.168,Promising Growth
+CUST_00715,Robert Miller,robert.miller15@techweb.org,853-52-4534,876.42,0.115,Standard
+CUST_00716,Michael Davis,michael.davis16@servicehub.io,534-67-7361,2461.78,0.267,Promising Growth
+CUST_00717,Michael Johnson,michael.johnson17@mailcorp.net,683-79-9221,894.7,0.529,Standard
+CUST_00718,Michael Rodriguez,michael.rodriguez18@example.com,797-12-9160,2411.15,0.174,Promising Growth
+CUST_00719,Jennifer Jones,jennifer.jones19@example.com,899-61-6202,609.4,0.449,Standard
+CUST_00720,Patricia Rodriguez,patricia.rodriguez20@example.com,567-47-6329,3183.17,0.325,Loyal VIP
+CUST_00721,Jennifer Martinez,jennifer.martinez21@servicehub.io,352-22-9978,4057.92,0.174,Loyal VIP
+CUST_00722,Mary Brown,mary.brown22@mailcorp.net,372-77-4052,3922.41,0.122,Loyal VIP
+CUST_00723,William Rodriguez,william.rodriguez23@example.com,809-35-9903,2843.46,0.594,Promising Growth
+CUST_00724,Linda Garcia,linda.garcia24@mailcorp.net,438-65-6769,505.42,0.29,Standard
+CUST_00725,John Brown,john.brown25@mailcorp.net,842-97-8727,449.17,0.053,Standard
+CUST_00726,James Brown,james.brown26@techweb.org,146-88-1906,2749.71,0.239,Promising Growth
+CUST_00727,James Davis,james.davis27@mailcorp.net,654-89-4081,2765.0,0.091,Promising Growth
+CUST_00728,Elizabeth Rodriguez,elizabeth.rodriguez28@techweb.org,101-33-2741,4537.35,0.375,Loyal VIP
+CUST_00729,Michael Martinez,michael.martinez29@example.com,987-13-8928,4580.27,0.333,Loyal VIP
+CUST_00730,Patricia Davis,patricia.davis30@techweb.org,829-30-8432,1355.83,0.412,Standard
+CUST_00731,Elizabeth Jones,elizabeth.jones31@mailcorp.net,903-41-5321,822.52,0.095,Standard
+CUST_00732,James Smith,james.smith32@techweb.org,900-47-9652,788.45,0.181,Standard
+CUST_00733,Linda Smith,linda.smith33@techweb.org,155-74-7411,3639.63,0.08,Loyal VIP
+CUST_00734,Elizabeth Williams,elizabeth.williams34@example.com,758-69-3460,4834.51,0.24,Loyal VIP
+CUST_00735,James Brown,james.brown35@mailcorp.net,742-52-7200,2452.09,0.423,Promising Growth
+CUST_00736,Michael Brown,michael.brown36@mailcorp.net,891-73-3421,3073.45,0.079,Loyal VIP
+CUST_00737,William Williams,william.williams37@techweb.org,313-83-3108,3716.94,0.351,Loyal VIP
+CUST_00738,John Jones,john.jones38@example.com,657-94-8939,1415.65,0.258,Standard
+CUST_00739,Jennifer Miller,jennifer.miller39@techweb.org,116-84-8069,702.32,0.189,Standard
+CUST_00740,James Williams,james.williams40@servicehub.io,435-89-9148,925.36,0.339,Standard
+CUST_00741,James Brown,james.brown41@techweb.org,520-75-9080,3685.23,0.224,Loyal VIP
+CUST_00742,Mary Martinez,mary.martinez42@servicehub.io,171-52-3685,3060.45,0.434,Loyal VIP
+CUST_00743,John Miller,john.miller43@example.com,665-95-6969,4222.56,0.274,Loyal VIP
+CUST_00744,James Miller,james.miller44@servicehub.io,898-57-3666,4081.8,0.296,Loyal VIP
+CUST_00745,Jennifer Garcia,jennifer.garcia45@mailcorp.net,334-68-6890,4856.27,0.155,Loyal VIP
+CUST_00746,James Jones,james.jones46@techweb.org,632-61-5019,1564.43,0.507,Promising Growth
+CUST_00747,Patricia Martinez,patricia.martinez47@servicehub.io,727-60-7763,1617.2,0.234,Promising Growth
+CUST_00748,Robert Martinez,robert.martinez48@techweb.org,670-10-8234,1132.46,0.488,Standard
+CUST_00749,Patricia Smith,patricia.smith49@mailcorp.net,830-42-5482,4227.62,0.182,Loyal VIP
+CUST_00750,Elizabeth Rodriguez,elizabeth.rodriguez0@mailcorp.net,326-47-5695,2536.48,0.218,Promising Growth
+CUST_00751,Jennifer Smith,jennifer.smith1@example.com,990-23-5239,2831.4,0.262,Promising Growth
+CUST_00752,James Jones,james.jones2@mailcorp.net,770-89-6080,2954.59,0.338,Promising Growth
+CUST_00753,Patricia Johnson,patricia.johnson3@example.com,511-92-1598,3610.62,0.251,Loyal VIP
+CUST_00754,Michael Davis,michael.davis4@techweb.org,569-70-7806,2890.46,0.336,Promising Growth
+CUST_00755,Patricia Brown,patricia.brown5@mailcorp.net,220-78-8973,2828.41,0.567,Promising Growth
+CUST_00756,James Davis,james.davis6@servicehub.io,627-30-4574,4811.85,0.354,Loyal VIP
+CUST_00757,James Martinez,james.martinez7@example.com,742-18-7249,2845.71,0.158,Promising Growth
+CUST_00758,Linda Rodriguez,linda.rodriguez8@example.com,997-80-4695,514.78,0.069,Standard
+CUST_00759,Robert Miller,robert.miller9@servicehub.io,567-81-6640,1532.83,0.087,Promising Growth
+CUST_00760,Jennifer Smith,jennifer.smith10@servicehub.io,188-77-3397,3058.35,0.477,Loyal VIP
+CUST_00761,James Jones,james.jones11@example.com,732-36-5268,1241.92,0.794,At-Risk Low-Value
+CUST_00762,Linda Davis,linda.davis12@servicehub.io,668-47-3389,560.89,0.31,Standard
+CUST_00763,Patricia Brown,patricia.brown13@example.com,595-28-3708,3628.5,0.407,Loyal VIP
+CUST_00764,Mary Smith,mary.smith14@example.com,303-15-9118,334.41,0.595,Standard
+CUST_00765,Elizabeth Jones,elizabeth.jones15@techweb.org,779-92-4409,3953.98,0.394,Loyal VIP
+CUST_00766,William Miller,william.miller16@mailcorp.net,846-62-2854,4452.23,0.413,Loyal VIP
+CUST_00767,James Jones,james.jones17@servicehub.io,958-98-7839,2872.73,0.246,Promising Growth
+CUST_00768,William Rodriguez,william.rodriguez18@mailcorp.net,128-48-9026,2494.16,0.586,Promising Growth
+CUST_00769,Michael Garcia,michael.garcia19@mailcorp.net,572-86-5648,2247.66,0.238,Promising Growth
+CUST_00770,Patricia Smith,patricia.smith20@example.com,357-59-5218,458.9,0.102,Standard
+CUST_00771,William Miller,william.miller21@techweb.org,827-78-7212,2551.76,0.304,Promising Growth
+CUST_00772,Robert Davis,robert.davis22@techweb.org,309-45-1153,4677.92,0.143,Loyal VIP
+CUST_00773,John Miller,john.miller23@servicehub.io,262-24-8399,3724.15,0.189,Loyal VIP
+CUST_00774,Linda Smith,linda.smith24@example.com,429-28-5354,3005.63,0.257,Loyal VIP
+CUST_00775,Patricia Smith,patricia.smith25@servicehub.io,176-42-9708,3778.87,0.573,Loyal VIP
+CUST_00776,Jennifer Brown,jennifer.brown26@mailcorp.net,822-18-1502,1261.64,0.221,Standard
+CUST_00777,John Smith,john.smith27@servicehub.io,121-75-2573,571.02,0.251,Standard
+CUST_00778,Patricia Davis,patricia.davis28@example.com,957-11-3383,4385.57,0.226,Loyal VIP
+CUST_00779,Linda Jones,linda.jones29@servicehub.io,322-60-3847,1949.2,0.184,Promising Growth
+CUST_00780,Jennifer Smith,jennifer.smith30@mailcorp.net,416-55-6137,4469.92,0.303,Loyal VIP
+CUST_00781,William Miller,william.miller31@example.com,533-41-7037,1952.32,0.292,Promising Growth
+CUST_00782,James Jones,james.jones32@mailcorp.net,774-83-6220,4036.19,0.864,High-Value Churn Risk
+CUST_00783,William Davis,william.davis33@techweb.org,785-32-2234,4276.91,0.56,Loyal VIP
+CUST_00784,James Brown,james.brown34@mailcorp.net,614-61-9168,103.51,0.56,Standard
+CUST_00785,Linda Jones,linda.jones35@example.com,845-86-2198,664.98,0.134,Standard
+CUST_00786,John Martinez,john.martinez36@example.com,842-69-5320,2351.56,0.193,Promising Growth
+CUST_00787,Mary Smith,mary.smith37@mailcorp.net,778-80-1565,2313.03,0.471,Promising Growth
+CUST_00788,William Brown,william.brown38@mailcorp.net,834-13-2189,2688.31,0.341,Promising Growth
+CUST_00789,John Martinez,john.martinez39@example.com,774-52-5023,4121.61,0.454,Loyal VIP
+CUST_00790,Patricia Rodriguez,patricia.rodriguez40@mailcorp.net,397-16-4131,1549.19,0.69,At-Risk Low-Value
+CUST_00791,William Miller,william.miller41@mailcorp.net,834-89-1745,145.08,0.088,Standard
+CUST_00792,Michael Johnson,michael.johnson42@servicehub.io,163-16-9232,1710.99,0.221,Promising Growth
+CUST_00793,Jennifer Garcia,jennifer.garcia43@mailcorp.net,494-26-2115,2864.55,0.279,Promising Growth
+CUST_00794,Robert Smith,robert.smith44@example.com,858-44-9051,3568.14,0.669,High-Value Churn Risk
+CUST_00795,James Williams,james.williams45@techweb.org,154-96-9524,2445.36,0.091,Promising Growth
+CUST_00796,Linda Garcia,linda.garcia46@techweb.org,294-24-1646,111.5,0.171,Standard
+CUST_00797,Patricia Garcia,patricia.garcia47@example.com,938-21-2374,974.41,0.385,Standard
+CUST_00798,Robert Miller,robert.miller48@example.com,987-88-1901,2281.02,0.189,Promising Growth
+CUST_00799,James Smith,james.smith49@servicehub.io,847-54-5253,4960.28,0.547,Loyal VIP
+CUST_00800,Elizabeth Davis,elizabeth.davis0@mailcorp.net,742-89-5190,4174.71,0.555,Loyal VIP
+CUST_00801,Robert Miller,robert.miller1@example.com,609-39-4612,2159.64,0.326,Promising Growth
+CUST_00802,Robert Rodriguez,robert.rodriguez2@mailcorp.net,688-88-2461,1081.67,0.387,Standard
+CUST_00803,Elizabeth Williams,elizabeth.williams3@example.com,537-17-2118,3308.4,0.483,Loyal VIP
+CUST_00804,Mary Williams,mary.williams4@servicehub.io,534-77-8416,3556.0,0.175,Loyal VIP
+CUST_00805,Linda Rodriguez,linda.rodriguez5@techweb.org,539-61-1815,4123.28,0.112,Loyal VIP
+CUST_00806,James Brown,james.brown6@techweb.org,335-81-7686,1432.81,0.358,Standard
+CUST_00807,Elizabeth Rodriguez,elizabeth.rodriguez7@servicehub.io,982-55-7305,4148.47,0.093,Loyal VIP
+CUST_00808,Mary Williams,mary.williams8@mailcorp.net,860-98-1958,4269.92,0.215,Loyal VIP
+CUST_00809,Michael Smith,michael.smith9@example.com,291-35-2806,601.09,0.226,Standard
+CUST_00810,Jennifer Rodriguez,jennifer.rodriguez10@techweb.org,124-66-2055,4567.03,0.466,Loyal VIP
+CUST_00811,Robert Rodriguez,robert.rodriguez11@mailcorp.net,575-48-4395,1359.88,0.452,Standard
+CUST_00812,James Brown,james.brown12@mailcorp.net,954-84-6024,3690.34,0.257,Loyal VIP
+CUST_00813,Elizabeth Martinez,elizabeth.martinez13@example.com,796-96-5027,1147.63,0.265,Standard
+CUST_00814,Jennifer Martinez,jennifer.martinez14@servicehub.io,167-31-4148,2272.27,0.453,Promising Growth
+CUST_00815,Patricia Martinez,patricia.martinez15@example.com,799-72-9000,1313.07,0.395,Standard
+CUST_00816,Michael Martinez,michael.martinez16@techweb.org,412-75-3865,2548.13,0.673,High-Value Churn Risk
+CUST_00817,John Garcia,john.garcia17@example.com,211-27-5692,677.9,0.195,Standard
+CUST_00818,Mary Garcia,mary.garcia18@example.com,545-78-9533,411.33,0.336,Standard
+CUST_00819,Elizabeth Martinez,elizabeth.martinez19@example.com,406-19-7461,4759.61,0.297,Loyal VIP
+CUST_00820,William Williams,william.williams20@mailcorp.net,231-57-5677,2071.24,0.288,Promising Growth
+CUST_00821,Michael Garcia,michael.garcia21@techweb.org,962-28-1442,3134.81,0.231,Loyal VIP
+CUST_00822,James Davis,james.davis22@example.com,662-94-5567,564.37,0.187,Standard
+CUST_00823,Elizabeth Martinez,elizabeth.martinez23@techweb.org,415-79-6392,3506.46,0.255,Loyal VIP
+CUST_00824,Linda Garcia,linda.garcia24@techweb.org,646-42-2188,1948.53,0.076,Promising Growth
+CUST_00825,Mary Miller,mary.miller25@mailcorp.net,739-93-8991,4640.08,0.262,Loyal VIP
+CUST_00826,John Martinez,john.martinez26@techweb.org,367-30-1569,4041.09,0.247,Loyal VIP
+CUST_00827,William Martinez,william.martinez27@techweb.org,350-88-5858,2673.19,0.383,Promising Growth
+CUST_00828,Robert Jones,robert.jones28@mailcorp.net,487-95-7929,126.04,0.605,Standard
+CUST_00829,Robert Williams,robert.williams29@example.com,392-12-8614,2014.69,0.299,Promising Growth
+CUST_00830,Patricia Smith,patricia.smith30@servicehub.io,253-57-2151,1129.86,0.156,Standard
+CUST_00831,Robert Rodriguez,robert.rodriguez31@techweb.org,983-63-4705,629.02,0.048,Standard
+CUST_00832,John Davis,john.davis32@techweb.org,884-18-8073,1744.23,0.157,Promising Growth
+CUST_00833,Elizabeth Martinez,elizabeth.martinez33@example.com,354-94-2555,3496.73,0.306,Loyal VIP
+CUST_00834,Mary Johnson,mary.johnson34@example.com,912-18-7333,3572.52,0.226,Loyal VIP
+CUST_00835,John Miller,john.miller35@mailcorp.net,478-91-4897,3065.0,0.1,Loyal VIP
+CUST_00836,Patricia Miller,patricia.miller36@example.com,481-33-1071,2763.34,0.104,Promising Growth
+CUST_00837,Robert Brown,robert.brown37@servicehub.io,458-71-6373,3135.28,0.137,Loyal VIP
+CUST_00838,Linda Davis,linda.davis38@techweb.org,628-94-1815,2817.0,0.389,Promising Growth
+CUST_00839,Jennifer Davis,jennifer.davis39@techweb.org,517-62-2421,4815.28,0.169,Loyal VIP
+CUST_00840,John Rodriguez,john.rodriguez40@example.com,256-79-9762,876.83,0.202,Standard
+CUST_00841,Robert Brown,robert.brown41@mailcorp.net,447-47-6032,3970.34,0.127,Loyal VIP
+CUST_00842,William Johnson,william.johnson42@techweb.org,341-39-3274,886.96,0.162,Standard
+CUST_00843,James Garcia,james.garcia43@servicehub.io,703-73-2387,541.96,0.141,Standard
+CUST_00844,William Brown,william.brown44@mailcorp.net,779-33-9495,4788.49,0.381,Loyal VIP
+CUST_00845,Michael Brown,michael.brown45@mailcorp.net,490-46-7708,425.72,0.272,Standard
+CUST_00846,John Miller,john.miller46@techweb.org,927-61-3815,913.34,0.1,Standard
+CUST_00847,Elizabeth Garcia,elizabeth.garcia47@techweb.org,285-49-2074,3520.06,0.01,Loyal VIP
+CUST_00848,Patricia Jones,patricia.jones48@example.com,716-34-8211,3476.63,0.409,Loyal VIP
+CUST_00849,Michael Davis,michael.davis49@example.com,482-64-2480,4568.18,0.119,Loyal VIP
+CUST_00850,Michael Davis,michael.davis0@example.com,793-23-3292,1338.05,0.768,At-Risk Low-Value
+CUST_00851,James Johnson,james.johnson1@servicehub.io,111-29-8980,4548.3,0.294,Loyal VIP
+CUST_00852,Michael Garcia,michael.garcia2@example.com,176-18-1023,4667.46,0.327,Loyal VIP
+CUST_00853,Elizabeth Brown,elizabeth.brown3@servicehub.io,672-90-4495,4711.56,0.159,Loyal VIP
+CUST_00854,James Miller,james.miller4@example.com,358-60-9014,3082.74,0.247,Loyal VIP
+CUST_00855,James Jones,james.jones5@servicehub.io,505-33-4196,4622.36,0.174,Loyal VIP
+CUST_00856,William Jones,william.jones6@mailcorp.net,198-29-4598,4246.35,0.054,Loyal VIP
+CUST_00857,Elizabeth Martinez,elizabeth.martinez7@servicehub.io,107-82-7676,3432.23,0.35,Loyal VIP
+CUST_00858,William Jones,william.jones8@example.com,653-56-5412,1498.27,0.365,Standard
+CUST_00859,Linda Miller,linda.miller9@servicehub.io,649-89-8822,1930.89,0.164,Promising Growth
+CUST_00860,James Jones,james.jones10@techweb.org,113-51-8147,2858.76,0.134,Promising Growth
+CUST_00861,Patricia Rodriguez,patricia.rodriguez11@example.com,668-61-8018,1534.43,0.346,Promising Growth
+CUST_00862,William Garcia,william.garcia12@mailcorp.net,354-11-7125,4319.21,0.346,Loyal VIP
+CUST_00863,Patricia Martinez,patricia.martinez13@mailcorp.net,694-12-8496,618.99,0.373,Standard
+CUST_00864,John Williams,john.williams14@servicehub.io,358-13-6790,3311.72,0.292,Loyal VIP
+CUST_00865,Robert Martinez,robert.martinez15@techweb.org,129-19-6611,2489.82,0.154,Promising Growth
+CUST_00866,William Miller,william.miller16@example.com,740-11-7457,4524.1,0.305,Loyal VIP
+CUST_00867,Robert Smith,robert.smith17@servicehub.io,206-66-3611,4187.15,0.12,Loyal VIP
+CUST_00868,Jennifer Martinez,jennifer.martinez18@mailcorp.net,576-42-6247,4894.38,0.196,Loyal VIP
+CUST_00869,Elizabeth Davis,elizabeth.davis19@example.com,323-13-6132,2812.1,0.145,Promising Growth
+CUST_00870,Elizabeth Johnson,elizabeth.johnson20@mailcorp.net,892-13-6775,4771.29,0.099,Loyal VIP
+CUST_00871,John Martinez,john.martinez21@mailcorp.net,274-13-2334,1149.46,0.179,Standard
+CUST_00872,John Jones,john.jones22@techweb.org,119-22-9524,4937.35,0.115,Loyal VIP
+CUST_00873,Jennifer Garcia,jennifer.garcia23@techweb.org,200-48-7945,2666.42,0.177,Promising Growth
+CUST_00874,John Smith,john.smith24@servicehub.io,332-19-1107,2571.66,0.313,Promising Growth
+CUST_00875,Mary Johnson,mary.johnson25@mailcorp.net,659-28-4046,2674.62,0.265,Promising Growth
+CUST_00876,Robert Johnson,robert.johnson26@techweb.org,975-39-4275,4177.74,0.561,Loyal VIP
+CUST_00877,Linda Martinez,linda.martinez27@servicehub.io,555-73-2811,1990.71,0.448,Promising Growth
+CUST_00878,Robert Williams,robert.williams28@techweb.org,401-24-2665,3696.96,0.148,Loyal VIP
+CUST_00879,William Williams,william.williams29@mailcorp.net,271-73-7096,950.5,0.403,Standard
+CUST_00880,William Garcia,william.garcia30@servicehub.io,658-30-3205,2663.47,0.304,Promising Growth
+CUST_00881,Robert Rodriguez,robert.rodriguez31@example.com,146-94-7630,2503.19,0.103,Promising Growth
+CUST_00882,Robert Rodriguez,robert.rodriguez32@mailcorp.net,331-23-8614,801.1,0.223,Standard
+CUST_00883,Linda Miller,linda.miller33@example.com,717-44-5062,530.09,0.081,Standard
+CUST_00884,Linda Johnson,linda.johnson34@servicehub.io,722-91-2536,873.37,0.389,Standard
+CUST_00885,Jennifer Davis,jennifer.davis35@servicehub.io,119-23-3180,2657.48,0.175,Promising Growth
+CUST_00886,James Smith,james.smith36@servicehub.io,887-45-2183,2352.04,0.688,At-Risk Low-Value
+CUST_00887,Michael Garcia,michael.garcia37@mailcorp.net,429-89-8370,1988.56,0.376,Promising Growth
+CUST_00888,Linda Garcia,linda.garcia38@mailcorp.net,373-73-6622,1532.96,0.513,Promising Growth
+CUST_00889,Patricia Rodriguez,patricia.rodriguez39@mailcorp.net,995-27-1530,2608.89,0.177,Promising Growth
+CUST_00890,James Rodriguez,james.rodriguez40@servicehub.io,561-55-2142,2158.35,0.131,Promising Growth
+CUST_00891,Elizabeth Davis,elizabeth.davis41@mailcorp.net,985-55-5621,4180.15,0.382,Loyal VIP
+CUST_00892,Mary Jones,mary.jones42@techweb.org,942-68-9906,564.93,0.218,Standard
+CUST_00893,Elizabeth Rodriguez,elizabeth.rodriguez43@example.com,196-71-3063,1845.44,0.084,Promising Growth
+CUST_00894,Linda Miller,linda.miller44@servicehub.io,620-72-9040,354.22,0.214,Standard
+CUST_00895,Patricia Brown,patricia.brown45@mailcorp.net,470-57-9269,3226.22,0.221,Loyal VIP
+CUST_00896,Linda Davis,linda.davis46@mailcorp.net,233-90-3776,4875.92,0.415,Loyal VIP
+CUST_00897,Robert Rodriguez,robert.rodriguez47@servicehub.io,604-47-1938,3012.23,0.096,Loyal VIP
+CUST_00898,Patricia Miller,patricia.miller48@mailcorp.net,674-47-8039,823.0,0.072,Standard
+CUST_00899,William Williams,william.williams49@mailcorp.net,121-96-8207,1404.18,0.408,Standard
+CUST_00900,James Miller,james.miller0@servicehub.io,965-16-3340,4388.09,0.314,Loyal VIP
+CUST_00901,Jennifer Rodriguez,jennifer.rodriguez1@techweb.org,349-62-3160,3000.38,0.207,Loyal VIP
+CUST_00902,James Garcia,james.garcia2@mailcorp.net,960-29-6608,3499.84,0.359,Loyal VIP
+CUST_00903,William Rodriguez,william.rodriguez3@servicehub.io,819-83-3939,3539.54,0.259,Loyal VIP
+CUST_00904,John Brown,john.brown4@techweb.org,883-72-7764,4890.79,0.203,Loyal VIP
+CUST_00905,Mary Garcia,mary.garcia5@example.com,595-29-6733,4644.77,0.622,High-Value Churn Risk
+CUST_00906,Jennifer Garcia,jennifer.garcia6@example.com,449-32-9841,1435.53,0.178,Standard
+CUST_00907,William Johnson,william.johnson7@servicehub.io,859-47-8229,4985.25,0.072,Loyal VIP
+CUST_00908,William Brown,william.brown8@mailcorp.net,848-59-4535,2927.9,0.275,Promising Growth
+CUST_00909,Robert Garcia,robert.garcia9@mailcorp.net,805-57-1171,3352.61,0.696,High-Value Churn Risk
+CUST_00910,Jennifer Davis,jennifer.davis10@techweb.org,754-90-3804,4309.74,0.408,Loyal VIP
+CUST_00911,Robert Davis,robert.davis11@servicehub.io,575-89-7159,972.3,0.157,Standard
+CUST_00912,Mary Smith,mary.smith12@techweb.org,512-46-6546,2634.04,0.18,Promising Growth
+CUST_00913,James Rodriguez,james.rodriguez13@example.com,954-54-7513,3763.94,0.297,Loyal VIP
+CUST_00914,John Jones,john.jones14@servicehub.io,739-27-6396,2490.6,0.362,Promising Growth
+CUST_00915,Michael Garcia,michael.garcia15@servicehub.io,261-79-4881,1023.0,0.297,Standard
+CUST_00916,Mary Miller,mary.miller16@techweb.org,723-74-2839,2856.31,0.005,Promising Growth
+CUST_00917,James Miller,james.miller17@example.com,259-74-5300,3623.97,0.518,Loyal VIP
+CUST_00918,Patricia Jones,patricia.jones18@servicehub.io,529-61-7793,3905.37,0.438,Loyal VIP
+CUST_00919,Mary Davis,mary.davis19@servicehub.io,301-78-5041,2606.19,0.67,High-Value Churn Risk
+CUST_00920,Mary Johnson,mary.johnson20@techweb.org,980-51-5649,4109.74,0.077,Loyal VIP
+CUST_00921,William Smith,william.smith21@servicehub.io,904-43-5370,1734.21,0.217,Promising Growth
+CUST_00922,Linda Smith,linda.smith22@example.com,920-16-7125,4291.5,0.276,Loyal VIP
+CUST_00923,Elizabeth Williams,elizabeth.williams23@servicehub.io,235-22-7658,2203.68,0.187,Promising Growth
+CUST_00924,Linda Williams,linda.williams24@example.com,680-50-7655,4529.51,0.121,Loyal VIP
+CUST_00925,Michael Brown,michael.brown25@mailcorp.net,723-87-1642,2081.39,0.483,Promising Growth
+CUST_00926,Jennifer Jones,jennifer.jones26@mailcorp.net,588-42-1354,3193.75,0.348,Loyal VIP
+CUST_00927,Jennifer Martinez,jennifer.martinez27@techweb.org,295-42-5919,4131.41,0.012,Loyal VIP
+CUST_00928,William Rodriguez,william.rodriguez28@mailcorp.net,358-12-5179,4646.88,0.387,Loyal VIP
+CUST_00929,Robert Johnson,robert.johnson29@example.com,441-44-7702,3549.29,0.472,Loyal VIP
+CUST_00930,Robert Rodriguez,robert.rodriguez30@techweb.org,843-69-8803,3613.18,0.332,Loyal VIP
+CUST_00931,Jennifer Williams,jennifer.williams31@techweb.org,828-96-2756,2583.96,0.119,Promising Growth
+CUST_00932,Robert Jones,robert.jones32@servicehub.io,605-23-2945,3419.59,0.26,Loyal VIP
+CUST_00933,Patricia Garcia,patricia.garcia33@example.com,851-71-4081,4220.53,0.295,Loyal VIP
+CUST_00934,Mary Johnson,mary.johnson34@example.com,376-89-5942,3375.59,0.251,Loyal VIP
+CUST_00935,James Brown,james.brown35@example.com,258-30-3631,414.01,0.423,Standard
+CUST_00936,Michael Brown,michael.brown36@servicehub.io,392-47-7656,1902.45,0.13,Promising Growth
+CUST_00937,Patricia Johnson,patricia.johnson37@techweb.org,953-25-9001,4947.01,0.157,Loyal VIP
+CUST_00938,Mary Garcia,mary.garcia38@servicehub.io,306-56-2440,2261.89,0.088,Promising Growth
+CUST_00939,Robert Garcia,robert.garcia39@mailcorp.net,169-52-7787,3500.02,0.179,Loyal VIP
+CUST_00940,Patricia Smith,patricia.smith40@example.com,280-25-8218,650.68,0.432,Standard
+CUST_00941,Elizabeth Rodriguez,elizabeth.rodriguez41@servicehub.io,798-31-1944,1024.24,0.392,Standard
+CUST_00942,John Johnson,john.johnson42@techweb.org,165-23-3612,3977.63,0.43,Loyal VIP
+CUST_00943,Linda Martinez,linda.martinez43@servicehub.io,142-60-6229,4620.85,0.251,Loyal VIP
+CUST_00944,John Martinez,john.martinez44@mailcorp.net,312-62-9804,3626.5,0.384,Loyal VIP
+CUST_00945,Jennifer Smith,jennifer.smith45@servicehub.io,187-32-9367,2039.11,0.358,Promising Growth
+CUST_00946,James Garcia,james.garcia46@mailcorp.net,225-30-2878,2591.19,0.443,Promising Growth
+CUST_00947,John Johnson,john.johnson47@servicehub.io,705-15-5908,139.92,0.503,Standard
+CUST_00948,William Jones,william.jones48@servicehub.io,670-94-8835,2837.66,0.265,Promising Growth
+CUST_00949,William Garcia,william.garcia49@example.com,467-54-3389,3655.28,0.121,Loyal VIP
+CUST_00950,Michael Brown,michael.brown0@example.com,402-53-7324,839.49,0.285,Standard
+CUST_00951,Linda Martinez,linda.martinez1@example.com,130-30-5826,3349.42,0.598,Loyal VIP
+CUST_00952,Patricia Martinez,patricia.martinez2@servicehub.io,620-39-7147,1483.75,0.138,Standard
+CUST_00953,James Miller,james.miller3@servicehub.io,329-89-4791,2042.15,0.298,Promising Growth
+CUST_00954,Elizabeth Rodriguez,elizabeth.rodriguez4@example.com,915-44-4414,503.51,0.582,Standard
+CUST_00955,Jennifer Jones,jennifer.jones5@example.com,906-11-3666,4784.5,0.456,Loyal VIP
+CUST_00956,James Jones,james.jones6@mailcorp.net,393-24-8601,293.11,0.162,Standard
+CUST_00957,Mary Smith,mary.smith7@example.com,544-84-9713,3247.31,0.187,Loyal VIP
+CUST_00958,Michael Garcia,michael.garcia8@example.com,829-86-4275,4896.76,0.295,Loyal VIP
+CUST_00959,Patricia Williams,patricia.williams9@techweb.org,388-84-1328,3386.45,0.155,Loyal VIP
+CUST_00960,Michael Miller,michael.miller10@servicehub.io,783-91-9379,626.07,0.361,Standard
+CUST_00961,Mary Johnson,mary.johnson11@mailcorp.net,481-75-9708,4150.97,0.371,Loyal VIP
+CUST_00962,Patricia Davis,patricia.davis12@example.com,258-21-3708,3340.04,0.467,Loyal VIP
+CUST_00963,James Miller,james.miller13@mailcorp.net,164-53-2295,1826.94,0.127,Promising Growth
+CUST_00964,Robert Garcia,robert.garcia14@techweb.org,908-52-9140,4724.57,0.158,Loyal VIP
+CUST_00965,Linda Martinez,linda.martinez15@mailcorp.net,779-15-6487,3661.63,0.127,Loyal VIP
+CUST_00966,Elizabeth Davis,elizabeth.davis16@techweb.org,752-85-2032,2647.99,0.13,Promising Growth
+CUST_00967,Mary Brown,mary.brown17@techweb.org,663-48-5103,3528.59,0.344,Loyal VIP
+CUST_00968,James Jones,james.jones18@mailcorp.net,161-47-2817,3639.32,0.369,Loyal VIP
+CUST_00969,Robert Williams,robert.williams19@servicehub.io,262-28-4759,4373.8,0.292,Loyal VIP
+CUST_00970,Mary Miller,mary.miller20@mailcorp.net,678-78-4330,4599.47,0.407,Loyal VIP
+CUST_00971,Linda Martinez,linda.martinez21@mailcorp.net,783-32-2217,3394.09,0.178,Loyal VIP
+CUST_00972,Michael Smith,michael.smith22@servicehub.io,175-57-9142,2645.3,0.353,Promising Growth
+CUST_00973,Mary Garcia,mary.garcia23@example.com,172-83-2059,1386.5,0.491,Standard
+CUST_00974,John Martinez,john.martinez24@mailcorp.net,120-11-8854,2614.87,0.069,Promising Growth
+CUST_00975,Patricia Rodriguez,patricia.rodriguez25@mailcorp.net,375-22-6122,2307.85,0.2,Promising Growth
+CUST_00976,James Williams,james.williams26@mailcorp.net,294-22-4377,3859.18,0.295,Loyal VIP
+CUST_00977,James Davis,james.davis27@techweb.org,516-16-4444,2581.21,0.332,Promising Growth
+CUST_00978,James Martinez,james.martinez28@servicehub.io,672-27-6717,4312.36,0.198,Loyal VIP
+CUST_00979,Robert Williams,robert.williams29@servicehub.io,426-34-1394,3985.75,0.395,Loyal VIP
+CUST_00980,Robert Martinez,robert.martinez30@servicehub.io,699-66-2561,1012.21,0.133,Standard
+CUST_00981,Mary Miller,mary.miller31@techweb.org,584-82-6506,3225.33,0.255,Loyal VIP
+CUST_00982,Jennifer Rodriguez,jennifer.rodriguez32@techweb.org,431-46-6361,621.76,0.504,Standard
+CUST_00983,Elizabeth Smith,elizabeth.smith33@example.com,371-18-3808,4702.38,0.365,Loyal VIP
+CUST_00984,Jennifer Jones,jennifer.jones34@servicehub.io,454-81-2521,4130.92,0.19,Loyal VIP
+CUST_00985,Mary Davis,mary.davis35@mailcorp.net,202-90-7571,302.13,0.181,Standard
+CUST_00986,Robert Davis,robert.davis36@servicehub.io,868-26-7792,3838.69,0.185,Loyal VIP
+CUST_00987,James Rodriguez,james.rodriguez37@example.com,162-45-6965,3903.24,0.22,Loyal VIP
+CUST_00988,John Miller,john.miller38@techweb.org,333-22-3755,177.11,0.545,Standard
+CUST_00989,Elizabeth Jones,elizabeth.jones39@techweb.org,170-85-4736,2355.89,0.153,Promising Growth
+CUST_00990,Jennifer Williams,jennifer.williams40@example.com,215-60-8041,2105.79,0.5,Promising Growth
+CUST_00991,Elizabeth Brown,elizabeth.brown41@mailcorp.net,600-72-7219,3970.88,0.495,Loyal VIP
+CUST_00992,Robert Johnson,robert.johnson42@servicehub.io,738-79-5964,1895.82,0.544,Promising Growth
+CUST_00993,Linda Martinez,linda.martinez43@mailcorp.net,924-92-5053,3035.59,0.463,Loyal VIP
+CUST_00994,Mary Smith,mary.smith44@servicehub.io,133-95-3372,1164.4,0.319,Standard
+CUST_00995,Michael Davis,michael.davis45@mailcorp.net,510-37-5561,3675.07,0.103,Loyal VIP
+CUST_00996,Patricia Rodriguez,patricia.rodriguez46@techweb.org,561-60-6707,2836.08,0.331,Promising Growth
+CUST_00997,Patricia Davis,patricia.davis47@techweb.org,372-89-7821,3795.73,0.252,Loyal VIP
+CUST_00998,Mary Jones,mary.jones48@example.com,779-66-4257,1248.09,0.102,Standard
+CUST_00999,Patricia Smith,patricia.smith49@example.com,970-91-6270,4768.06,0.369,Loyal VIP
+CUST_01000,James Davis,james.davis0@servicehub.io,215-22-9503,1721.35,0.826,At-Risk Low-Value

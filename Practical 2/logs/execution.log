@@ -4,3 +4,6 @@
 2026-08-03 23:32:39,237 - INFO - Program Started
 2026-08-03 23:32:39,238 - WARNING - Missing Email Found
 2026-08-03 23:32:39,238 - ERROR - Primary Key Missing
+2026-10-05 00:06:38,073 - INFO - Validation started.
+2026-10-05 00:06:38,086 - INFO - File customer.csv: 0 invalid records found.
+2026-10-05 00:06:38,086 - INFO - Validation completed.

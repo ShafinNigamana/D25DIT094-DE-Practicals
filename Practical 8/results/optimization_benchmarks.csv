@@ -1,0 +1,5 @@
+Workload,Query Type,Runtime_ms,Bottleneck
+Workload 1 (Purchase Analytics),Baseline (Correlated Subquery),38.86,Correlated subquery per-row scan & redundant passes
+Workload 1 (Purchase Analytics),Optimized (CTE + Filter Pushdown),16.41,Eliminated subqueries; single pass Hash Join
+Supplementary (Top Sessions by Device),Baseline (Nested Correlated Subquery),791.47,O(N^2) quadratic correlated nested count
+Supplementary (Top Sessions by Device),Optimized (DENSE_RANK Window Function CTE),10.44,Linear O(N log N) partitioned window sort

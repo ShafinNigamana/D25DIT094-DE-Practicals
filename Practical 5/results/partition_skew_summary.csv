@@ -1,0 +1,2 @@
+total_partitions,total_size_kb,mean_partition_kb,std_dev_kb,coefficient_of_variation,max_min_skew_ratio
+24,5435.14,226.46,89.42,0.395,3.34

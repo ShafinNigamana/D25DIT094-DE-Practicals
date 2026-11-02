@@ -1,0 +1,114 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw ELT staging data stored in the local DuckDB database used by Practical 4.
+    schema: main
+    tables:
+      - name: staging_retail_sales
+        description: Preserved raw retail sales data loaded directly from the CSV before SQL transformations.
+        columns:
+          - name: transaction_id
+            description: Raw transaction ID with possible leading/trailing whitespace.
+          - name: transaction_date
+            description: Transaction date in YYYY-MM-DD format.
+          - name: store_code
+            description: Raw store code, including legacy LEG*** values and whitespace.
+          - name: product_id
+            description: Raw product identifier.
+          - name: quantity
+            description: Raw quantity stored as text before SQL casting.
+          - name: unit_price
+            description: Raw unit price stored as text before SQL casting.
+          - name: customer_id
+            description: Raw customer identifier.
+          - name: payment_method
+            description: Raw payment method, including formatting and case differences.
+
+models:
+  - name: stg_retail_sales
+    description: Staging model for retail sales. It preserves the raw source and cleans only the fields needed for downstream analytics.
+    columns:
+      - name: transaction_id
+        description: Transaction identifier trimmed for downstream use.
+        tests:
+          - not_null
+          - unique
+      - name: transaction_date
+        description: Date of transaction.
+      - name: store_code_raw
+        description: Store code after trimming whitespace, before legacy code normalization.
+        tests:
+          - not_null
+      - name: product_id
+        description: Product identifier after trimming whitespace.
+        tests:
+          - not_null
+      - name: quantity
+        description: Quantity cast to integer.
+        tests:
+          - not_null
+      - name: unit_price
+        description: Unit price cast to DECIMAL(10,2).
+        tests:
+          - not_null
+      - name: customer_id
+        description: Customer identifier after trimming whitespace.
+      - name: payment_method
+        description: Payment method normalized to lowercase.
+        tests:
+          - not_null
+
+  - name: retail_sales_clean
+    description: Final analytical model with normalized store codes and calculated total_amount.
+    columns:
+      - name: transaction_id
+        description: Unique transaction identifier.
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              arguments:
+                to: ref('stg_retail_sales')
+                field: transaction_id
+      - name: transaction_date
+        description: Date of transaction.
+      - name: store_code
+        description: Store code normalized to STORE_XXX format.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - "STORE_001"
+                  - "STORE_002"
+                  - "STORE_003"
+                  - "STORE_004"
+                  - "STORE_005"
+                  - "STORE_006"
+                  - "STORE_007"
+                  - "STORE_008"
+                  - "STORE_009"
+                  - "STORE_010"
+      - name: product_id
+        description: Product identifier.
+        tests:
+          - not_null
+      - name: quantity
+        description: Quantity purchased.
+        tests:
+          - not_null
+      - name: unit_price
+        description: Unit price in the output table.
+        tests:
+          - not_null
+      - name: customer_id
+        description: Customer identifier.
+      - name: payment_method
+        description: Payment method after lowercase normalization.
+        tests:
+          - not_null
+      - name: total_amount
+        description: Total transaction amount as quantity * unit_price.
+        tests:
+          - not_null

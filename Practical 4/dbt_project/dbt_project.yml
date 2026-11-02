@@ -1,0 +1,29 @@
+# DBT Project Configuration
+# This is a supplementary implementation of the ELT pipeline using dbt
+# It demonstrates modular, testable data transformations
+
+name: "retail_sales_warehouse"
+version: "1.0.0"
+config-version: 2
+
+profile: "retail_sales"
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["data"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  retail_sales_warehouse:
+    staging:
+      materialized: table
+      schema: main
+    marts:
+      materialized: table
+      schema: main

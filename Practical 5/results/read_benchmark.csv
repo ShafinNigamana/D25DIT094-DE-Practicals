@@ -1,0 +1,3 @@
+Scan_Type,Prefix,Bytes_Scanned_KB,Rows_Returned,Latency_ms
+Full Bucket Scan,None (Whole Bucket),5435.14,75000,851.68
+Partition-Pruned Read,year=2025/month=01/region=west/,360.07,5000,46.17

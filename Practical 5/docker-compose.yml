@@ -1,0 +1,10 @@
+services:
+  seaweedfs-s3:
+    image: chrislusf/seaweedfs
+    container_name: seaweedfs-s3
+    ports:
+      - "8333:8333"
+    environment:
+      - AWS_ACCESS_KEY_ID=admin
+      - AWS_SECRET_ACCESS_KEY=secret
+    restart: unless-stopped

@@ -1,0 +1,25 @@
+object_key,year,month,region,size_bytes,size_kb,last_modified
+year=2024/month=01/region=east/data.csv,2024,01,east,110567,107.98,2026-10-05 08:08:58+00:00
+year=2024/month=01/region=north/data.csv,2024,01,north,224171,218.92,2026-10-05 08:08:58+00:00
+year=2024/month=01/region=south/data.csv,2024,01,south,223994,218.74,2026-10-05 08:08:58+00:00
+year=2024/month=01/region=west/data.csv,2024,01,west,368795,360.15,2026-10-05 08:08:58+00:00
+year=2024/month=02/region=east/data.csv,2024,02,east,110551,107.96,2026-10-05 08:08:59+00:00
+year=2024/month=02/region=north/data.csv,2024,02,north,224028,218.78,2026-10-05 08:08:59+00:00
+year=2024/month=02/region=south/data.csv,2024,02,south,224244,218.99,2026-10-05 08:08:59+00:00
+year=2024/month=02/region=west/data.csv,2024,02,west,368512,359.88,2026-10-05 08:08:59+00:00
+year=2024/month=03/region=east/data.csv,2024,03,east,110574,107.98,2026-10-05 08:08:59+00:00
+year=2024/month=03/region=north/data.csv,2024,03,north,224355,219.1,2026-10-05 08:08:59+00:00
+year=2024/month=03/region=south/data.csv,2024,03,south,224413,219.15,2026-10-05 08:08:59+00:00
+year=2024/month=03/region=west/data.csv,2024,03,west,368828,360.18,2026-10-05 08:08:59+00:00
+year=2025/month=01/region=east/data.csv,2025,01,east,110553,107.96,2026-10-05 08:08:59+00:00
+year=2025/month=01/region=north/data.csv,2025,01,north,224444,219.18,2026-10-05 08:08:59+00:00
+year=2025/month=01/region=south/data.csv,2025,01,south,223997,218.75,2026-10-05 08:08:59+00:00
+year=2025/month=01/region=west/data.csv,2025,01,west,368713,360.07,2026-10-05 08:08:59+00:00
+year=2025/month=02/region=east/data.csv,2025,02,east,110657,108.06,2026-10-05 08:08:59+00:00
+year=2025/month=02/region=north/data.csv,2025,02,north,224145,218.89,2026-10-05 08:08:59+00:00
+year=2025/month=02/region=south/data.csv,2025,02,south,224314,219.06,2026-10-05 08:08:59+00:00
+year=2025/month=02/region=west/data.csv,2025,02,west,368608,359.97,2026-10-05 08:08:59+00:00
+year=2025/month=03/region=east/data.csv,2025,03,east,110728,108.13,2026-10-05 08:08:59+00:00
+year=2025/month=03/region=north/data.csv,2025,03,north,223838,218.59,2026-10-05 08:08:59+00:00
+year=2025/month=03/region=south/data.csv,2025,03,south,223974,218.72,2026-10-05 08:08:59+00:00
+year=2025/month=03/region=west/data.csv,2025,03,west,368585,359.95,2026-10-05 08:09:00+00:00

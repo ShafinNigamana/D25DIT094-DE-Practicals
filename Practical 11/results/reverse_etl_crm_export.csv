@@ -1,0 +1,23 @@
+customer_id,full_name,email,churn_risk_score,recommended_action,synced_at
+CUST_00036,Michael Johnson,michael.johnson36@example.com,0.654,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00122,Patricia Johnson,patricia.johnson22@techweb.org,0.683,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00149,John Davis,john.davis49@mailcorp.net,0.725,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00221,John Brown,john.brown21@mailcorp.net,0.678,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00224,John Smith,john.smith24@example.com,0.65,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00271,Robert Brown,robert.brown21@example.com,0.731,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00317,Michael Garcia,michael.garcia17@servicehub.io,0.646,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00347,James Miller,james.miller47@servicehub.io,0.615,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00397,James Rodriguez,james.rodriguez47@example.com,0.624,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00428,Patricia Smith,patricia.smith28@techweb.org,0.639,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00437,Jennifer Jones,jennifer.jones37@servicehub.io,0.651,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00587,Jennifer Miller,jennifer.miller37@techweb.org,0.649,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00643,John Miller,john.miller43@techweb.org,0.651,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00652,William Johnson,william.johnson2@servicehub.io,0.633,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00660,Patricia Jones,patricia.jones10@mailcorp.net,0.624,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00700,James Williams,james.williams0@mailcorp.net,0.606,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00782,James Jones,james.jones32@mailcorp.net,0.864,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00794,Robert Smith,robert.smith44@example.com,0.669,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00816,Michael Martinez,michael.martinez16@techweb.org,0.673,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00905,Mary Garcia,mary.garcia5@example.com,0.622,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00909,Robert Garcia,robert.garcia9@mailcorp.net,0.696,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54
+CUST_00919,Mary Davis,mary.davis19@servicehub.io,0.67,Trigger VIP Retention Promo (20% Off),2026-10-05 00:15:54

@@ -1,0 +1,2 @@
+event_id,device_id,event_time,arrival_time,temperature,vibration,battery_level,model,location,firmware,lateness_seconds,watermark_at_arrival
+EVT_9999_LATE,DEV_002,2026-10-05 10:00:10,2026-10-05 10:01:30.500,24.1,0.45,92,Sensor-X3,Sector-B,v2.1.4,65.0,2026-10-05 10:01:15

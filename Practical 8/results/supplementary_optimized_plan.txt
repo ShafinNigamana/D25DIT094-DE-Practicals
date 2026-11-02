@@ -1,0 +1,79 @@
+┌───────────────────────────┐
+│         PROJECTION        │
+│    ────────────────────   │
+│__internal_decompress_strin│
+│           g(#0)           │
+│__internal_decompress_integ│
+│   ral_bigint(#1, 100020)  │
+│             #2            │
+│                           │
+│          ~0 rows          │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│          ORDER_BY         │
+│    ────────────────────   │
+│ ranked_sessions.device ASC│
+│      ranked_sessions      │
+│     .max_duration DESC    │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│         PROJECTION        │
+│    ────────────────────   │
+│__internal_compress_string_│
+│        ubigint(#0)        │
+│__internal_compress_integra│
+│   l_uinteger(#1, 100020)  │
+│             #2            │
+│                           │
+│        ~1,000 rows        │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│         PROJECTION        │
+│    ────────────────────   │
+│             #0            │
+│             #1            │
+│             #2            │
+│                           │
+│        ~1,000 rows        │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│           FILTER          │
+│    ────────────────────   │
+│      (rank_pos <= 3)      │
+│                           │
+│        ~1,000 rows        │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│         PROJECTION        │
+│    ────────────────────   │
+│             #0            │
+│             #1            │
+│             #2            │
+│             #3            │
+│                           │
+│        ~5,000 rows        │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│           WINDOW          │
+│    ────────────────────   │
+│        Projections:       │
+│     RANK_DENSE() OVER     │
+│ (PARTITION BY device ORDER│
+│    BY max_duration DESC   │
+│         NULLS LAST)       │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│          SEQ_SCAN         │
+│    ────────────────────   │
+│           Table:          │
+│"temp".main.device_sessions│
+│                           │
+│   Type: Sequential Scan   │
+│                           │
+│        Projections:       │
+│           device          │
+│         session_id        │
+│        max_duration       │
+│                           │
+│        ~5,000 rows        │
+└───────────────────────────┘

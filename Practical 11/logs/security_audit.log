@@ -1,0 +1,5 @@
+[2026-10-05 00:15:54] ROLE=SYSTEM     | ACTION=INITIALIZE      | RESOURCE=customer_analytics.db     | STATUS=SUCCESS  | Populated 1000 records with hashing & masking.
+[2026-10-05 00:15:54] ROLE=REVERSE_ETL | ACTION=SYNC_DISPATCH   | RESOURCE=operational_crm_targets   | STATUS=SUCCESS  | Pushed 22 high-value churn targets.
+[2026-10-05 00:15:54] ROLE=ADMIN      | ACTION=QUERY_EXECUTE   | RESOURCE=SELECT customer_id, full_name,... | STATUS=SUCCESS  | Returned 3 rows.
+[2026-10-05 00:15:54] ROLE=ANALYST    | ACTION=QUERY_EXECUTE   | RESOURCE=SELECT hashed_id, masked_name,... | STATUS=SUCCESS  | Returned 3 rows.
+[2026-10-05 00:15:54] ROLE=ANALYST    | ACTION=QUERY_REJECTED  | RESOURCE=customer_analytics        | STATUS=DENIED   | Policy violation: Analyst denied access to raw PII table.

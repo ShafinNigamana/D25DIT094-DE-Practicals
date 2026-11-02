@@ -1,0 +1,6 @@
+device_id,model,location,firmware
+DEV_001,Sensor-X2,Sector-A,v2.1.4
+DEV_002,Sensor-X3,Sector-B,v2.1.4
+DEV_003,Sensor-X1,Sector-C,v2.1.4
+DEV_004,Sensor-X2,Sector-D,v2.1.4
+DEV_005,Sensor-X3,Sector-E,v2.1.4
